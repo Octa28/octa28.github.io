@@ -61,7 +61,7 @@
             document.body.appendChild(renderer.domElement);
 
             let loader = new THREE.GLTFLoader();
-            loader.load('sasiu.gltf', function (gltf) {
+            loader.load('roatabuna.gltf', function (gltf) {
                 robot = gltf.scene.children[0];
                 robot.scale.set(0.5, 0.5, 0.5);
                 scene.add(gltf.scene);
