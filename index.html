@@ -12,6 +12,7 @@
     <p>testscrislatext</p>
 
     <script src = "three.min.js"></script>
+   <!--  <script src = "OBJLoader.js"></script> -->
     <script src = "GLTFLoader.js"></script>
     <script>
         let scene, camera, renderer;
@@ -31,7 +32,7 @@
             document.body.appendChild(renderer.domElement);
 
             let loader = new THREE.GLTFLoader();
-            loader.load('scene.gltf', function (gltf) {
+            loader.load('sasiu.gltf', function (gltf) {
                 scene.add(gltf.scene);
                 renderer.render(scene, camera);
             });
