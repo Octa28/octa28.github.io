@@ -11,7 +11,7 @@
     <script src = "GLTFLoader.js"></script>
     <script src = "OrbitControls.js"></script>
     <script>
-        let scene, camera, renderer;
+        let scene, camera, renderer,controls;
 
         function init() {
 
@@ -24,8 +24,8 @@
             camera.position.y = 100;
             camera.position.z = 1000;
 
-            controls = new THREE.OrbitControls(camera);
-            controls.addEventListener('change', renderer);
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.addEventListener('change', render);
     
 
             hlight = new THREE.AmbientLight(0x404040, 100);
@@ -33,7 +33,7 @@
 
             directionalLight = new THREE.DirectionalLight(0xffffff, 100);
             directionalLight.position.set(0, 1, 0);
-            directionalLight.castSgadow = true;
+            directionalLight.castShadow = true;
             scene.add(directionalLight);
 
             light = new THREE.PointLight(0xc4c4c4, 10);
@@ -68,8 +68,9 @@
             });
         }
         function animate(){
-            renderer.render(scene, camera);
             requestAnimationFrame(animate);
+            renderer.render(scene, camera);
+            controls.update();
         }
         init();
     </script>
