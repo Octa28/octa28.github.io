@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CafelutaWeb</title>
+    <title>TestSasiu</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>textscrislatest</h1>
-    <p>testscrislatext</p>
+    <h1>O zi de colectie!</h1>
+    <p>O zi de colectie (dar scris mai mic)</p>
 
     <script src = "three.min.js"></script>
    <!--  pentru fisiere ".obj": <script src = "OBJLoader.js"></script> -->
@@ -22,16 +22,16 @@
         function init() {
 
             scene = new THREE.Scene();
-            scene.backround = new THREE.color(0xdddddd);
+            scene.background = new THREE.Color(0xdddddd);
 
             camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 1, 5000);
-            camera.rotation,y = 45 / 180 * Math.PI;
-            canera.position.x = 800;
+            camera.rotation.y = 45 / 180 * Math.PI;
+            camera.position.x = 800;
             camera.position.y = 100;
             camera.position.z = 1000;
 
             controls = new THREE.OrbitControls(camera);
-            controls.addEventListener('change', renderer);
+            controls.addEventListener('change', render);
     
 
             hlight = new THREE.AmbientLight(0x404040, 100);
