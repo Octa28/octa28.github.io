@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rating Subsite</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("background-image.png");
+      background-repeat: repeat-y;
+      background-size: cover;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    #header-left {
+      display: flex;
+    }
+
+    .button-frame {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .button-frame:hover {
+      border-color: #ffcc00;
+      transform: scale(1.05);
+    }
+
+    .button-frame .button-text {
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    #header-right a {
+      margin-left: 10px;
+    }
+
+    #header-right img {
+      width: 24px;
+      height: 24px;
+      transition: transform 0.3s ease;
+    }
+
+    #header-right a:hover img {
+      transform: scale(1.2);
+    }
+
+    #image-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+
+    .image-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+      transition: transform 0.3s ease;
+      border-radius: 20px;
+      overflow: hidden;
+      width: 320px; /* Adjust the width as needed for a 16:9 aspect ratio */
+      height: 180px; /* Adjust the height as needed for a 16:9 aspect ratio */
+    }
+
+    .image-box:hover {
+      transform: scale(1.1);
+    }
+
+    .image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .image-box p {
+      margin-top: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      color: #333;
+      margin-bottom: 0;
+    }
+
+    .animate span {
+      opacity: 0;
+      animation: wordAnimation 0.5s forwards;
+    }
+
+    @keyframes wordAnimation {
+      0% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Existing CSS styles */
+
+    #full-image-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    #full-image-overlay.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    #full-image {
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    #close-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 24px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    /* Additional styles for Rating Subsite */
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #welcome-heading {
+      margin-top: 50px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    /* Added styles for image rating section */
+
+    .image-rating-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .image-rating-box .image-box {
+      margin-bottom: 20px;
+    }
+
+    .image-rating-box .image-box:last-child {
+      margin-bottom: 0;
+    }
+
+    .image-rating-box .image-box img {
+      cursor: pointer;
+    }
+
+    .image-rating-box .image-rating {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .image-rating-box .image-rating input[type="radio"] {
+      display: none;
+    }
+
+    .image-rating-box .image-rating label {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      border: 2px solid #333;
+      border-radius: 50%;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    .image-rating-box .image-rating label:hover {
+      background-color: #333;
+    }
+
+    .image-rating-box .image-rating input[type="radio"]:checked + label {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div id="header-left">
+      <a href="index.html" class="button-frame">
+        <span class="button-text">Home</span>
+      </a>
+      <a href="rate.html" class="button-frame">
+        <span class="button-text">Rate</span>
+      </a>
+      <a href="upload.html" class="button-frame">
+        <span class="button-text">Upload</span>
+      </a>
+    </div>
+    <div id="header-right">
+      <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+      <a href="https://www.twitter.com/" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+    </div>
+  </header>
+  <main>
+    <h1 id="welcome-heading" class="animate">
+      <span>Welcome</span>
+      <span>to</span>
+      <span>the</span>
+      <span>rating</span>
+      <span>subsite</span>
+    </h1>
+    <p>This is the rating subsite content.</p>
+
+    <!-- Image Rating Section -->
+    <div class="image-rating-box">
+      <div class="image-box">
+        <img src="image1.jpg" alt="Image 1">
+        <p>Image 1</p>
+      </div>
+      <div class="image-box">
+        <img src="image2.jpg" alt="Image 2">
+        <p>Image 2</p>
+      </div>
+      <!-- Add more image boxes for Image 3 to Image 10 -->
+      <!-- Example: -->
+      <!-- <div class="image-box"> -->
+      <!--   <img src="image3.jpg" alt="Image 3"> -->
+      <!--   <p>Image 3</p> -->
+      <!-- </div> -->
+      <!-- Repeat the above structure for Image 4 to Image 10 -->
+
+      <div class="image-rating">
+        <input type="radio" name="rating" id="rating1" value="1">
+        <label for="rating1"></label>
+        <input type="radio" name="rating" id="rating2" value="2">
+        <label for="rating2"></label>
+        <input type="radio" name="rating" id="rating3" value="3">
+        <label for="rating3"></label>
+        <input type="radio" name="rating" id="rating4" value="4">
+        <label for="rating4"></label>
+        <input type="radio" name="rating" id="rating5" value="5">
+        <label for="rating5"></label>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
