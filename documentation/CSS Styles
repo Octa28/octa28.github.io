@@ -1,0 +1,6 @@
+The CSS file (styles.css) defines the styles for various elements of the website. Some key styles include:
+
+    header: Styles the header section with a background color (#333), text color (#fff), and padding (20px). The header uses flexbox to align its contents.
+    button-frame: Styles the button frames with padding (10px 20px), a transparent border, and a transition effect. When hovered, the border color changes to #ffcc00, and the button scales up slightly.
+    image-box: Styles the image boxes in the grid with a border radius (20px) and a transition effect. When hovered, the image box scales up slightly.
+    animate: Styles the welcome heading with an animation effect. The animate class uses keyframes to gradually fade in and translate the individual words of the heading.
