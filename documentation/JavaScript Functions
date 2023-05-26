@@ -1,0 +1,5 @@
+The JavaScript file (script.js) contains functions for interactivity and event handling. Some important functions include:
+
+    showFullImage(imageURL): This function is called when an image is clicked on the index.html and rate.html pages. It takes the URL of the clicked image as a parameter and displays the full image overlay (full-image-overlay) with the specified image URL. The overlay becomes visible by adding the show class, which updates the opacity and pointer-events properties.
+    hideFullImage(): This function is called when the close button (close-icon) is clicked on the full image overlay. It hides the overlay by removing the show class, which restores the default opacity and pointer-events properties.
+    Event listeners: The JavaScript file includes event listeners to handle various user interactions, such as clicking on images or social media icons. These event listeners invoke the appropriate functions to provide the desired functionality.
