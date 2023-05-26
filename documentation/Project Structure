@@ -1,0 +1,25 @@
+The project structure section of the code documentation for the Link Submission Website provides an overview of the organization and layout of the codebase. It explains the directory structure, file organization, and the purpose of each major component. Understanding the project structure is crucial for developers who want to navigate, modify, or extend the website's functionality.
+
+In this section, we will elaborate on the following points:
+
+    Directory Structure: The Link Submission Website follows a logical directory structure that organizes the codebase into meaningful sections. Here is an overview of the main directories and their purpose:
+
+        css/: This directory contains the CSS files responsible for styling the website. The styles.css file is the main stylesheet that defines the overall look and feel of the website. Additional CSS files, if any, may be included for specific components or pages.
+
+        js/: The js/ directory houses the JavaScript files that provide interactivity and dynamic functionality to the website. The script.js file contains the main JavaScript code, handling actions such as image preview, rating functionality, and modal behavior.
+
+        images/: This directory stores the image files used in the website, including background images, thumbnail images, and icons. It holds the images referenced by the HTML and CSS files.
+
+    File Organization: The Link Submission Website's codebase consists of various files, each serving a specific purpose. Here are the key files and their functionalities:
+
+        index.html: This is the main HTML file and serves as the entry point for the website. It contains the overall structure and content of the home page, including the header, image container, welcome heading, and additional content sections. It references the necessary CSS and JavaScript files.
+
+        rate.html: The rate.html file represents the rating page of the website. It allows users to rate the submitted links and leave comments. It shares a similar structure to index.html but with appropriate modifications to cater to the rating functionality.
+
+        upload.html: This file represents the upload page, where users can submit their own links. It includes a form for users to enter the link URL, description, and select a category.
+
+        styles.css: The styles.css file contains the CSS styles that define the visual appearance and layout of the website. It applies styles to various HTML elements, including the header, image container, buttons, and overlays.
+
+        script.js: The script.js file holds the JavaScript code responsible for implementing interactivity and functionality. It handles actions such as displaying full images in a modal, rating functionality, and hiding/showing elements.
+
+        Image files (e.g., background-image.png, left-image.png): These files are stored in the images/ directory and are referenced in the HTML and CSS files. They represent the visual content, including background images and thumbnail images displayed on the website.
