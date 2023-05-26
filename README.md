@@ -20,7 +20,7 @@ This is a simple link submission website that allows users to rate and upload im
 ## Getting Started
 
 1. Clone the repository:
-  git clone https://github.com/your-username/link-submission-website.git
+  git clone https://github.com/octa28/link-submission-website.git
 
 2. Open the project folder in your preferred code editor.
 
