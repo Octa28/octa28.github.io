@@ -1,7 +1,7 @@
 The HTML pages have the following structure:
 
     index.html:
-        header: The header section contains the website's logo and navigation links. It is styled with a background color, text color, and padding. The header is fixed at the top of the page for easy access to navigation.
+        header: The header section contains the navigation links. It is styled with a background color, text color, and padding. The header is fixed at the top of the page for easy access to navigation.
         main: The main section contains the welcome message, image grid, and additional content. The welcome message is animated using the animate class. The image grid is displayed using the image-box class, which applies a border radius and transition effect to the image boxes. Each image box consists of an image and accompanying text.
         full-image-overlay: The full image overlay is a hidden element that becomes visible when an image is clicked. It displays the full-size version of the image along with a close button (close-icon). The overlay is styled with a dark background color and positioned in the center of the screen.
 
@@ -10,5 +10,5 @@ The HTML pages have the following structure:
         main: The main section displays the images in a grid format using the image-box class. Each image box consists of an image and accompanying text. Users can click on an image to view a full-size version in the full image overlay, similar to the index.html page.
 
     upload.html:
-        header: The header section contains the website's logo and navigation links, just like in the other pages.
+        header: The header section contains the website's navigation links, just like in the other pages.
         main: The main section provides a form for users to upload new images. It includes input fields for the image file, title, and description. When the form is submitted, the data is processed and stored on the server.
