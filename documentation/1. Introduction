@@ -11,7 +11,7 @@ In this section, we will elaborate on the following points:
 - **Audience**: The target audience for the Link Submission Website includes internet users who are interested in discovering and sharing valuable online content. It caters to individuals who are seeking a platform to promote their own content, as well as those who are looking for curated and rated links in various domains. The documentation is designed to be accessible to both developers who may want to extend or customize the website and users who want to understand how to navigate and utilize its features effectively.
 
 - **Key Features**: The Link Submission Website offers several key features, including:
-  - Link Submission: Users can submit links by providing the URL and a brief description of the content.
+  - Site Submission: Users can submit websites by providing a picture containing the webpage and a brief description of the content.
   - Rating System: Users can rate the submitted links based on their relevance and quality.
   - Commenting: Users can leave comments on link submissions to provide additional context or engage in discussions.
   - User Profiles: Each user has a profile page that displays their submitted links and their ratings.
