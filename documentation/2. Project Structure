@@ -1,5 +1,3 @@
-The project structure section of the code documentation for the Link Submission Website provides an overview of the organization and layout of the codebase. It explains the directory structure, file organization, and the purpose of each major component. Understanding the project structure is crucial for developers who want to navigate, modify, or extend the website's functionality.
-
 In this section, we will elaborate on the following points:
 
     Directory Structure: The Link Submission Website follows a logical directory structure that organizes the codebase into meaningful sections. Here is an overview of the main directories and their purpose:
