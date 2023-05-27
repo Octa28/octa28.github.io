@@ -32,9 +32,5 @@ In this section, we will elaborate on the following points:
 - **Usage Guidelines**: Once the website is up and running, users can utilize its features in the following ways:
   - Home: The home page displays a collection of submitted links along with their descriptions and ratings. Users can browse and explore the links.
   - Rate: The rate page allows users to rate the submitted links by clicking on the rating stars provided for each link. Users can also leave comments on link submissions.
-  - Upload: The upload page enables users to submit their own links by providing the URL and a brief description. They can also choose
-
- an appropriate category for the link.
+  - Upload: The upload page enables users to submit their own links by providing a picture containing the webpage and a brief description. They can also choose an appropriate category for the link.
   - Social Media Integration: Users can leverage the integration with Instagram, Facebook, and Twitter to share interesting links on these platforms directly.
-
-By providing a comprehensive introduction, users and developers can gain a clear understanding of the Link Submission Website's purpose, goals, features, and target audience. It sets the foundation for effectively utilizing and extending the project while providing a user-friendly experience for all stakeholders involved.
