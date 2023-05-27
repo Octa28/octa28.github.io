@@ -16,7 +16,7 @@ In this section, we will elaborate on the following points:
 
         rate.html: The rate.html file represents the rating page of the website. It allows users to rate the submitted links and leave comments. It shares a similar structure to index.html but with appropriate modifications to cater to the rating functionality.
 
-        upload.html: This file represents the upload page, where users can submit their own links. It includes a form for users to enter the link URL, description, and select a category.
+        upload.html: This file represents the upload page, where users can submit their own links. It includes a form for users to enter a website screenshot and descriptiom.
 
         styles.css: The styles.css file contains the CSS styles that define the visual appearance and layout of the website. It applies styles to various HTML elements, including the header, image container, buttons, and overlays.
 
