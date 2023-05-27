@@ -17,11 +17,10 @@ In this section, we will elaborate on the following points:
   - User Profiles: Each user has a profile page that displays their submitted links and their ratings.
   - Social Media Integration: The website integrates with popular social media platforms, such as Instagram, Facebook, and Twitter, allowing users to easily share links on these platforms.
 
-- **Project Dependencies**: The Link Submission Website is built using web technologies and frameworks. The main dependencies include:
+- **Project Dependencies**: The Link Submission Website is built using web technologies. The main dependencies include:
   - HTML: The website's structure and content are written using HTML (Hypertext Markup Language).
   - CSS: Cascading Style Sheets (CSS) are used for styling and layout purposes.
   - JavaScript: The website includes JavaScript code to provide interactivity and dynamic functionality.
-  - External Libraries: The project may utilize external libraries or frameworks, such as jQuery or Bootstrap, to enhance the development process and provide additional functionality.
 
 - **Installation Instructions**: To install and run the Link Submission Website, follow these steps:
   1. Ensure you have a compatible web browser installed (e.g., Google Chrome, Mozilla Firefox).
