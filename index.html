@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Cheatsheet Competente Digitale Bac</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font:13px/1.45 'Consolas','Courier New',monospace;background:#fff;color:#111}
+nav{background:#111;color:#fff;padding:5px 8px;position:sticky;top:0;z-index:99;display:flex;gap:3px;flex-wrap:wrap}
+nav a{color:#7cf;text-decoration:none;padding:2px 7px;border:1px solid #444;border-radius:3px;font-size:12px}
+nav a:hover{background:#333}
+.wrap{max-width:1400px;margin:0 auto;padding:8px 10px}
+h2{font-size:14px;background:#111;color:#fff;padding:4px 8px;margin:10px 0 4px}
+h3{font-size:13px;background:#ddd;padding:3px 6px;margin:5px 0 2px;border-left:3px solid #111}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:0 22px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0 16px}
+@media(max-width:750px){.grid,.grid3{grid-template-columns:1fr}}
+p,li{margin-bottom:2px}
+ul,ol{padding-left:16px;margin-bottom:3px}
+b{background:#ff0;color:#000;padding:0 1px}
+.cmd{background:#f5f5f5;border:1px solid #ccc;padding:1px 4px;font-family:monospace;font-size:12px;white-space:nowrap}
+.warn{color:#c00;font-weight:bold}
+.tip{color:#060}
+table{border-collapse:collapse;width:100%;margin:3px 0;font-size:12px}
+th{background:#333;color:#fff;padding:3px 6px;text-align:left}
+td{padding:2px 6px;border-bottom:1px solid #ddd}
+tr:nth-child(even)td{background:#f9f9f9}
+.sep{height:1px;background:#bbb;margin:6px 0}
+pre{background:#f5f5f5;border:1px solid #ccc;padding:6px;font-size:12px;white-space:pre-wrap;margin:3px 0}
+</style>
+</head>
+<body>
+<nav>
+<a href="#word">WORD</a>
+<a href="#excel">EXCEL</a>
+<a href="#ppt">POWERPOINT</a>
+<a href="#access">ACCESS</a>
+<a href="#html">HTML</a>
+<a href="#fisiere">FISIERE+SISTEM</a>
+<a href="#teorie">TEORIE IT</a>
+<a href="#internet">INTERNET+EMAIL</a>
+</nav>
+<div class="wrap">
+
+<!-- ═══ WORD ═══ -->
+<div id="word">
+<div class="grid">
+<div>
+<h2>WORD – FORMATARE TEXT</h2>
+<h3>Culoare text</h3>
+<p>Selectezi text → <b>Acasă → A</b> colorat (săgeata) → alege culoarea (Font Color).</p>
+<h3>Bold / Italic / Subliniere</h3>
+<p><span class="cmd">Ctrl+B</span>=Aldin(Bold) | <span class="cmd">Ctrl+I</span>=Cursiv(Italic) | <span class="cmd">Ctrl+U</span>=Subliniere(Underline)</p>
+<h3>Subliniere ondulată colorată</h3>
+<p>Selectezi → Acasă → <b>săgeata lângă S</b> → Mai multe sublinieri → Stil: ondulat(~) → Culoare subliniere: verde/altă culoare → OK</p>
+<h3>Tăiat / Strikethrough</h3>
+<p>Acasă → butonul <b>abc</b> tăiat. Sau Format Font → Efecte → Tăiat.</p>
+<h3>Superscript / Subscript</h3>
+<p><span class="cmd">Ctrl+Shift++</span>=superscript | <span class="cmd">Ctrl+=</span>=subscript. Sau Acasă → x² / x₂</p>
+<h3>Spațiere între caractere (Extended)</h3>
+<p>Selectezi → Acasă → <b>săgeata mică Font</b> → fila Avansat → Spațiere: Extinsă → valoare (ex: 5pt) → OK</p>
+<h3>Dimensiune / Tip font</h3>
+<p>Acasă → câmpul cu numărul (ex:12) sau cu fontul (ex:Arial) → tastezi → Enter. Sau <span class="cmd">Ctrl+Shift+P</span> pt dimensiune.</p>
+<h3>Majuscule / UPPERCASE</h3>
+<p>Selectezi → Acasă → butonul <b>Aa</b>. Sau <span class="cmd">Shift+F3</span> ciclează.</p>
+<h3>Pensulă formatare / Format Painter</h3>
+<p>Click pe text sursă → Acasă → <b>Pensulă</b> (pictograma pensulă) → selectezi destinație. Dublu-click pe pensulă = aplici de mai multe ori.</p>
+<h3>Ștergere formatare</h3>
+<p>Selectezi → Acasă → <b>A cu radieră</b> sau <span class="cmd">Ctrl+Space</span>.</p>
+
+<div class="sep"></div>
+<h2>WORD – FORMATARE PARAGRAF</h2>
+<h3>Aliniere text</h3>
+<p><span class="cmd">Ctrl+L</span>=Stânga | <span class="cmd">Ctrl+R</span>=Dreapta | <span class="cmd">Ctrl+E</span>=Centru | <span class="cmd">Ctrl+J</span>=Justify</p>
+<h3>Coloane / Columns</h3>
+<p>Selectezi textul → <b>Aspect → Coloane → Mai multe coloane</b> → nr, spațiere, Linie separatoare → Aplicare la: Text selectat → OK. <span class="warn">Selectează textul ÎNAINTE!</span></p>
+<h3>Indentare / Indent</h3>
+<p>Click în paragraf → Acasă → săgeata Paragraf → Indentare Stânga/Dreapta (ex: 2,54cm=1"). Sau trage rigla.</p>
+<h3>Spațiere rânduri / Line Spacing</h3>
+<p><span class="cmd">Ctrl+1</span>=simplu | <span class="cmd">Ctrl+2</span>=dublu | <span class="cmd">Ctrl+5</span>=1,5. Sau Acasă → Spațiere rânduri.</p>
+<h3>Spațiere înainte/după paragraf</h3>
+<p>Aspect → câmpurile Înainte/După din grupul Paragraf. Sau dialog Paragraf → Spațiere.</p>
+<h3>Marcatori personalizați (ex: @)</h3>
+<p>Selectezi → Acasă → săgeata lângă Marcatori → Definire marcator nou → Simbol → găsești @ → OK</p>
+<h3>Numerotare / Numbering</h3>
+<p>Acasă → Numerotare. Click dreapta pe numerotare → Setare valoare numerotare pt a schimba startul.</p>
+<h3>Sortare alfabetică paragrafe</h3>
+<p>Selectezi paragrafele → Acasă → <b>AZ↓ (Sort)</b> → Ascendent → OK</p>
+<h3>Borduri paragraf (stiluri diferite pe laturi)</h3>
+<p>Selectezi paragraful → Acasă → Borduri (săgeata) → Borduri și umbrire → Particularizat → alegi stil1 → click latură stângă în preview → alegi stil2 → click latură dreaptă → Aplicare la: Paragraf → OK</p>
+<h3>Umbrire paragraf / Shading</h3>
+<p>Acasă → Borduri și umbrire → fila Umbrire → culoare fundal → Aplicare la: Paragraf.</p>
+<h3>Stiluri paragraf</h3>
+<p>Acasă → Stiluri (galeria): Titlu 1, Titlu 2, Normal etc.</p>
+<h3>Drop Cap</h3>
+<p>Click în paragraf → Inserare → Drop Cap → Înfășurat/În marjă.</p>
+
+<div class="sep"></div>
+<h2>WORD – IMAGINI</h2>
+<h3>Inserare imagine</h3>
+<p>Inserare → Imagini → din fișier → navighezi → Insert.</p>
+<h3>Resize exact</h3>
+<p>Click pe imagine → Format imagine → câmpurile Înălțime/Lățime (dreapta sus). Debifează Blocare proporții dacă vrei valori independente.</p>
+<h3>Flip vertical</h3>
+<p>Click imagine → <b>Format imagine → Rotire → Răsturnare verticală (Flip Vertical)</b>.</p>
+<h3>Flip orizontal</h3>
+<p>Format imagine → Rotire → Răsturnare orizontală (Flip Horizontal).</p>
+<h3>Contrast / Luminozitate</h3>
+<p>Click imagine → Format imagine → <b>Corecții (Corrections)</b> → Opțiuni corecții imagine → cursorul Contrast la valoarea cerută (ex: 80%). LibreOffice: click dreapta → Format imagine → fila Imagine.</p>
+<h3>Transparență imagine</h3>
+<p>Format imagine → Imagine → Transparență (câmpul %).</p>
+<h3>Wrap text</h3>
+<p>Format imagine → Încadrare text → În pătrat / Aproape / Prin / Deasupra și dedesubt / Niciunul.</p>
+<h3>Legendă / Caption</h3>
+<p>Click imagine → <b>Referințe → Inserare legendă</b> → Etichetă: Imagine → Poziție: Deasupra → Numerotare: A,B,C → OK. Repetă pentru fiecare imagine.</p>
+</div>
+<div>
+<h2>WORD – TABELE</h2>
+<h3>Inserare tabel</h3>
+<p>Inserare → Tabel → trage în grilă SAU Inserare tabel → specifici rânduri și coloane → OK.</p>
+<h3>Înălțime rând exact (ex: 3cm=1.18")</h3>
+<p>Selectezi rândurile → fila <b>Aspect</b> [Instrumente tabel] → câmpul Înălțime celulă → introduci valoarea → Enter. <b>1"=2,54cm | 3cm=1,18" | 2,54cm=1"</b></p>
+<h3>Lățime coloană exactă</h3>
+<p>Fila Aspect → câmpul Lățime celulă. Sau trage marginea coloanei.</p>
+<h3>Aliniere conținut în celulă</h3>
+<p>Selectezi celule → Aspect → grup Aliniere → alege una din 9 butoane.</p>
+<h3>Fuzionare celule / Merge</h3>
+<p>Selectezi celulele → Aspect → Unire celule (Merge Cells).</p>
+<h3>Scindare celulă / Split Cells</h3>
+<p>Click în celulă → Aspect → <b>Scindare celule</b> → nr coloane și rânduri → OK.</p>
+<h3>Ștergere conținut celule (nu celulele)</h3>
+<p>Selectezi celulele → <span class="cmd">Delete</span>. <span class="warn">Nu Backspace (șterge celule)!</span></p>
+<h3>Borduri tabel: exterior dublu, interior punctat</h3>
+<p>Selectezi tot tabelul → Acasă → Borduri → Borduri și umbrire → Particularizat → stil=dublu → click 4 laturi externe → stil=punctat → click linii interioare → OK.</p>
+<h3>Eliminare borduri celule</h3>
+<p>Selectezi celulele → Borduri și umbrire → Particularizat → click laturile de eliminat din preview → OK. Sau: Fără borduri.</p>
+<h3>Inserare rând/coloană</h3>
+<p>Click în tabel → Aspect → Inserare deasupra/dedesubt/stânga/dreapta.</p>
+<h3>Ștergere rând/coloană</h3>
+<p>Selectezi rândul/coloana → Aspect → Ștergere → rânduri/coloane.</p>
+
+<div class="sep"></div>
+<h2>WORD – PAGINĂ / DOCUMENT</h2>
+<h3>Subsol cu nr pagină + total (Pagina X din Y)</h3>
+<p>Inserare → Subsol → Editare subsol → tastezi text → Inserare → Număr pagină → Poziție curentă (pentru X) → tastezi " din " → Inserare → Câmp rapid → Câmp → NumPages (pentru Y) → Închidere.</p>
+<h3>Număr pagină / Page Number</h3>
+<p>Inserare → Număr pagină → Sus/Jos/Margine → alege stilul.</p>
+<h3>Salt de pagină</h3>
+<p><span class="cmd">Ctrl+Enter</span> sau Inserare → Salt de pagină.</p>
+<h3>Salt de secțiune</h3>
+<p>Aspect → Salturi (Breaks) → Pagina următoare / Continuu. Util pt coloane parțiale.</p>
+<h3>Margini pagină</h3>
+<p>Aspect → Margini → Normal/Îngust sau Margini particularizate.</p>
+<h3>Orientare pagină</h3>
+<p>Aspect → Orientare → Portret/Vedere (Portrait/Landscape).</p>
+<h3>Filigran / Watermark</h3>
+<p>Design → Filigran → Filigran particularizat → text sau imagine → OK.</p>
+<h3>Borduri pagină</h3>
+<p>Design → Borduri pagină → Setare: Caseta → Aplicare la: Document întreg → OK.</p>
+<h3>Cuprins / Table of Contents</h3>
+<p>Referințe → Cuprins → alege stilul automat. Necesită stiluri Titlu 1/2/3 aplicate pe titluri.</p>
+<h3>Notă de subsol / Footnote</h3>
+<p>Click la sfârșitul cuvântului → Referințe → Inserare notă de subsol. Tastezi nota jos.</p>
+<h3>Protejare document</h3>
+<p>Revizuire → Restricționare editare → alege tipul → Aplicare protecție → parolă → OK.</p>
+<h3>Track Changes</h3>
+<p>Revizuire → Urmărire modificări <span class="cmd">Ctrl+Shift+E</span>. Acceptare/Respingere tot în Revizuire.</p>
+<h3>Simbol special</h3>
+<p>Inserare → Simbol → Mai multe simboluri → font (Symbol, Wingdings) → caracter → Inserare.</p>
+
+<div class="sep"></div>
+<h2>WORD – GĂSIRE / ÎNLOCUIRE / CORECTARE</h2>
+<h3>Găsire</h3>
+<p><span class="cmd">Ctrl+F</span> → tastezi textul → Enter.</p>
+<h3>Înlocuire (ex: "un" → "*")</h3>
+<p><span class="cmd">Ctrl+H</span> → Găsiți: <b>un</b> → Înlocuiți cu: <b>*</b> → Înlocuiți tot → notezi nr. înlocuiri din popup → OK. <span class="warn">Bifează "Potrivire majuscule" dacă se cere litere mici!</span></p>
+<h3>Ortografie și gramatică</h3>
+<p><span class="cmd">F7</span> sau Revizuire → Ortografie și gramatică. Acceptă/ignoră sugestiile.</p>
+<h3>Autocorectare</h3>
+<p>Fișier → Opțiuni → Verificare → Opțiuni autocorectare → adaugi reguli personalizate.</p>
+<h3>Corectare ortografică în timp real</h3>
+<p>Linii roșii = erori ortografice. Linii verzi/albastre = erori gramaticale. Click dreapta pe cuvânt → sugestii.</p>
+
+<div class="sep"></div>
+<h2>WORD – TIPĂRIRE</h2>
+<h3>Previzualizare și tipărire</h3>
+<p><span class="cmd">Ctrl+P</span> → dialog tipărire. Opțiuni: imprimantă, copii, interval pagini (All/Current/1-3,5), față-verso, orientare, dimensiune hârtie, nr. pagini per coală.</p>
+<h3>Tipărire față-verso (Duplex)</h3>
+<p>Ctrl+P → bifezi Tipărire față-verso (Print on Both Sides).</p>
+</div>
+</div>
+</div>
+
+<!-- ═══ EXCEL ═══ -->
+<div id="excel">
+<div class="grid">
+<div>
+<h2>EXCEL – FORMULE ȘI FUNCȚII</h2>
+<table>
+<tr><th>Funcție RO</th><th>EN</th><th>Exemplu</th></tr>
+<tr><td><b>MEDIE</b></td><td>AVERAGE</td><td><span class="cmd">=MEDIE(C2:C100)</span></td></tr>
+<tr><td><b>NUMĂRĂDACĂ</b></td><td>COUNTIF</td><td><span class="cmd">=NUMĂRĂDACĂ(C:C,"&gt;1500")</span></td></tr>
+<tr><td><b>SUMĂ</b></td><td>SUM</td><td><span class="cmd">=SUMĂ(A1:A10)</span></td></tr>
+<tr><td><b>NUMĂRĂ</b></td><td>COUNT</td><td><span class="cmd">=NUMĂRĂ(A1:A10)</span></td></tr>
+<tr><td><b>NUMĂRĂGOL</b></td><td>COUNTA</td><td><span class="cmd">=NUMĂRĂGOL(A1:A10)</span> (ne-goale)</td></tr>
+<tr><td><b>DACĂ</b></td><td>IF</td><td><span class="cmd">=DACĂ(A1&gt;10,"Mare","Mic")</span></td></tr>
+<tr><td><b>MAX / MIN</b></td><td>MAX / MIN</td><td><span class="cmd">=MAX(A1:A10)</span></td></tr>
+<tr><td><b>AZI</b></td><td>TODAY</td><td><span class="cmd">=AZI()</span> | <span class="cmd">=AZI()+1</span></td></tr>
+<tr><td><b>ACUM</b></td><td>NOW</td><td><span class="cmd">=ACUM()</span> (dată+oră)</td></tr>
+<tr><td><b>AN/LUNA/ZI</b></td><td>YEAR/MONTH/DAY</td><td><span class="cmd">=AN(A1)</span></td></tr>
+<tr><td><b>CĂUTAREVE</b></td><td>VLOOKUP</td><td><span class="cmd">=CĂUTAREVE(val,tabel,col,0)</span></td></tr>
+<tr><td><b>SUMĂDACĂ</b></td><td>SUMIF</td><td><span class="cmd">=SUMĂDACĂ(A:A,"x",B:B)</span></td></tr>
+<tr><td><b>CONCATENARE</b></td><td>CONCATENATE</td><td><span class="cmd">=CONCATENARE(A1," ",B1)</span></td></tr>
+<tr><td><b>STÂNGA/DREAPTA</b></td><td>LEFT/RIGHT</td><td><span class="cmd">=STÂNGA(A1,3)</span></td></tr>
+<tr><td><b>MIJLOC</b></td><td>MID</td><td><span class="cmd">=MIJLOC(A1,2,4)</span></td></tr>
+<tr><td><b>LUNGIME</b></td><td>LEN</td><td><span class="cmd">=LUNGIME(A1)</span></td></tr>
+<tr><td><b>ROTUNJIRE</b></td><td>ROUND</td><td><span class="cmd">=ROTUNJIRE(A1,2)</span></td></tr>
+<tr><td><b>ABSOLUT</b></td><td>ABS</td><td><span class="cmd">=ABSOLUT(A1)</span></td></tr>
+<tr><td><b>RANG</b></td><td>RANK</td><td><span class="cmd">=RANG(A1,A$1:A$10,0)</span></td></tr>
+</table>
+<h3>Referințe absolute ($)</h3>
+<p><span class="cmd">$A$1</span>=absolut complet | <span class="cmd">$A1</span>=coloană fixă | <span class="cmd">A$1</span>=rând fix. Apasă <span class="cmd">F4</span> pentru a cicla tipurile.</p>
+<h3>Criterii în formule</h3>
+<p><span class="cmd">"&gt;1500"</span> | <span class="cmd">"&lt;=100"</span> | <span class="cmd">"&gt;="&amp;A1</span> (referință) | <span class="cmd">"*text*"</span></p>
+
+<div class="sep"></div>
+<h2>EXCEL – FORMATARE CELULE (Ctrl+1)</h2>
+<h3>Format număr / dată / text</h3>
+<p><span class="cmd">Ctrl+1</span> → Număr → categorie (Număr, Monedă, Procentaj, Dată, Text, Particularizat).</p>
+<h3>Format dată calendaristică</h3>
+<p>Ctrl+1 → Dată → alege formatul. <span class="cmd">=AZI()</span> pentru azi, <span class="cmd">=AZI()+1</span> pentru mâine.</p>
+<h3>Format personalizat cu simbol (ex: "lei")</h3>
+<p>Ctrl+1 → Particularizat → Tip: <span class="cmd"># ##0" lei"</span> sau <span class="cmd">0,00" €"</span> → OK.</p>
+<h3>Superscript / Subscript în celulă</h3>
+<p><span class="cmd">F2</span> → selectezi textul → Ctrl+1 → Efecte → bifezi Superscript/Subscript → OK → Enter. <span class="warn">Funcționează doar cu selecție parțială!</span></p>
+<h3>Shrink to fit (reducere pentru potrivire)</h3>
+<p>Ctrl+1 → Aliniere → bifezi <b>Reducere pentru potrivire</b> → OK.</p>
+<h3>Wrap Text (text pe mai multe rânduri)</h3>
+<p>Ctrl+1 → Aliniere → Retur în celulă. Sau Acasă → Retur în celulă.</p>
+<h3>Unire celule / Merge</h3>
+<p>Selectezi → Acasă → <b>Unire și centrare</b> sau săgeata pentru opțiuni.</p>
+<h3>Borduri: exterior dublu + interior punctat</h3>
+<p>Selectezi → Ctrl+1 → fila Borduri → stil dublu → click Exterior → stil punctat → click Interior → OK.</p>
+<h3>Culoare fundal celulă</h3>
+<p>Acasă → săgeata de lângă <b>cutia de vopsit</b> → alege culoarea.</p>
+<h3>Formatare condiționată</h3>
+<p>Selectezi → Acasă → <b>Formatare condiționată</b> → Evidențiere reguli / Bare de date / Reguli noi.</p>
+
+<div class="sep"></div>
+<h2>EXCEL – COLOANE, RÂNDURI, FOI</h2>
+<h3>Inserare coloană (între col. 3 și 4)</h3>
+<p>Click pe litera coloanei 4 (D) → click dreapta → <b>Inserare</b>. Coloana nouă apare înaintea celei selectate.</p>
+<h3>Inserare rând</h3>
+<p>Click pe numărul rândului → click dreapta → Inserare.</p>
+<h3>Ștergere coloană/rând</h3>
+<p>Click pe literă/număr → click dreapta → Ștergere.</p>
+<h3>Lățime/înălțime exactă</h3>
+<p>Click dreapta pe litera coloanei → Lățime coloană → valoare → OK. La fel pentru rând.</p>
+<h3>AutoFit</h3>
+<p>Dublu-click pe marginea dintre două litere de coloană.</p>
+<h3>Ascundere/Afișare coloană</h3>
+<p>Click dreapta pe literă → Ascundere. Pt afișare: selectezi coloanele adiacente → click dreapta → Afișare.</p>
+<h3>Freeze Panes (blocare ferestre)</h3>
+<p>Click pe celula sub și la dreapta liniei de blocat → Vizualizare → Blocare ferestre. Deblocare: Vizualizare → Deblocare ferestre.</p>
+<h3>Foaie nouă</h3>
+<p>Click pe <b>+</b> din dreapta taburilor SAU click dreapta pe tab → Inserare.</p>
+<h3>Redenumire foaie</h3>
+<p>Dublu-click pe tab → tastezi noul nume → Enter.</p>
+<h3>Mutare foaie (ex: între Foaie2 și Foaie3)</h3>
+<p>Click dreapta pe tab → Mutare sau copiere → alegi poziția → OK.</p>
+<h3>Culoare tab foaie</h3>
+<p>Click dreapta pe tab → Culoare filă → alegi culoarea.</p>
+
+<div class="sep"></div>
+<h2>EXCEL – ANTET/SUBSOL + SERII</h2>
+<h3>Antet/Subsol</h3>
+<p>Inserare → Antet și subsol → click în secțiunea Stânga/Centru/Dreapta → tastezi. Câmpuri: &amp;[Page], &amp;[Pages], &amp;[Date], &amp;[Tab], &amp;[File].</p>
+<h3>Formatare antet cu fonturi diferite</h3>
+<p>În câmpul antetului selectezi fiecare cuvânt separat → alegi fontul diferit din bara de formatare.</p>
+<h3>Serie automată (multipli de 24)</h3>
+<p>E2=24, E3=48 → selectezi E2:E3 → tragi de colț până la E101. SAU: E2=24 → selectezi E2:E101 → Acasă → Umplere → Serie → Pas:24, Stop:2400 → OK.</p>
+</div>
+<div>
+<h2>EXCEL – DIAGRAME / PASTE SPECIAL</h2>
+<h3>Inserare diagramă 3D cu bare grupate</h3>
+<p>Selectezi datele (ex: A1:C5) → Inserare → Diagrame → Inserare diagramă cu bare → 3D Clustered Bar → OK. Titlu: Design → Adăugare element → Titlu diagramă → tastezi.</p>
+<h3>Modificare tip diagramă</h3>
+<p>Click pe diagramă → Design → Modificare tip diagramă.</p>
+<h3>Lipire cu legătură (se actualizează automat)</h3>
+<p>Copiezi sursa → <span class="cmd">Ctrl+Alt+V</span> → Lipire cu legătură (Paste Link).</p>
+<h3>Lipire doar valori (static)</h3>
+<p><span class="cmd">Ctrl+Alt+V</span> → Valori (Values) → OK. Sau Acasă → săgeata Lipire → Valori (123).</p>
+<h3>Lipire Transpus</h3>
+<p>Ctrl+Alt+V → bifezi Transpunere → OK. Schimbă rânduri cu coloane.</p>
+
+<div class="sep"></div>
+<h2>EXCEL – FILTRARE, SORTARE, TIPĂRIRE</h2>
+<h3>Filtru automat / AutoFilter</h3>
+<p>Click în tabel → Date → Filtru. Apar săgețile pe antete.</p>
+<h3>Sortare</h3>
+<p>Click în coloana de sortat → Date → AZ / ZA. Sau: Date → Sortare → criteriu multiplu.</p>
+<h3>Eliminare duplicate</h3>
+<p>Selectezi datele → Date → Eliminare duplicate.</p>
+<h3>Validare date</h3>
+<p>Selectezi celule → Date → Validare date → Permite: Listă/Număr/Dată → definești criteriul.</p>
+<h3>Zonă de imprimare</h3>
+<p>Selectezi → Aspect pagină → Zonă de imprimare → Setare zonă.</p>
+<h3>Titluri tipărite pe fiecare pagină</h3>
+<p>Aspect pagină → Titluri de tipărit → Rânduri de repetat în sus → click pe rândul antet → OK.</p>
+<h3>Tipărire (Ctrl+P)</h3>
+<p>Ctrl+P → alegi imprimanta, orientarea, zona. Previzualizare vizibilă în dreapta.</p>
+</div>
+</div>
+</div>
+
+<!-- ═══ POWERPOINT ═══ -->
+<div id="ppt">
+<div class="grid">
+<div>
+<h2>POWERPOINT – ANIMAȚII</h2>
+<h3>Adăugare animație</h3>
+<p>Click pe obiect → fila <b>Animații → Adăugare animație</b> → alegi efectul. <span class="warn">Folosește "Adăugare animație", nu click direct pe galerie!</span></p>
+<h3>3 animații pe același obiect cu delay 1s</h3>
+<p>Selectezi obiectul → Adăugare animație ×3 → Panou animații → animațiile 2 și 3: Început: <b>După anterior</b> → Întârziere: <b>01,00</b>.</p>
+<h3>Ordine animații</h3>
+<p>Animații → <b>Panou animații</b> → drag-and-drop sau săgețile ↑↓. Numărul de lângă obiect = ordinea.</p>
+<h3>Zbor spre interior (Fly In) din stânga-jos</h3>
+<p>Selectezi → Adăugare animație → Zbor spre interior → Opțiuni efect → Din stânga-jos.</p>
+<h3>Start animație</h3>
+<p>Panou animații → dropdown Început: <b>La clic (On Click)</b> | <b>Cu anterior (With Previous)</b> | <b>După anterior (After Previous)</b>.</p>
+<h3>Animație pe toate obiectele din slide</h3>
+<p><span class="cmd">Ctrl+A</span> în slide → Adăugare animație → alegi efectul.</p>
+
+<div class="sep"></div>
+<h2>POWERPOINT – TRANZIȚII</h2>
+<h3>Tranziție Tablă de șah cu durată 4s</h3>
+<p>Click pe slide → <b>Tranziții → Tablă de șah (Checkerboard)</b> → Durată: <b>04,00</b>.</p>
+<h3>Tranziție pe toate slide-urile</h3>
+<p>Setezi tranziția → click <b>Se aplică tuturor</b>.</p>
+<h3>Avansare automată</h3>
+<p>Tranziții → Cronometraj → bifezi După → setezi timpul (ex: 00:05.00).</p>
+
+<div class="sep"></div>
+<h2>POWERPOINT – FUNDAL / SUBSOL / HYPERLINK</h2>
+<h3>Imagine ca fundal cu transparență 70%</h3>
+<p>Click dreapta pe slide → Format fundal → Umplere cu imagine sau textură → Inserare → Din fișier → alegi fișierul → Transparență: 70% → Aplicați tuturor.</p>
+<h3>Culoare solidă fundal</h3>
+<p>Format fundal → Umplere solidă → alege culoarea.</p>
+<h3>Subsol: text fix pe slide 1 + număr automat pe restul</h3>
+<p>Inserare → Antet și subsol → bifezi Subsol → tastezi textul → bifezi Număr slide → Aplicați tuturor. Sau pentru fiecare separat: Aplicați (Apply) = doar slide curent.</p>
+<h3>Hyperlink text → alt slide</h3>
+<p>Selectezi textul → Inserare → Hyperlink → Plasați în acest document → alegi slide-ul → OK.</p>
+<h3>Hyperlink spre fișier extern / URL</h3>
+<p>Inserare → Hyperlink → Fișier sau pagină web existentă → tastezi URL/navighezi → OK.</p>
+
+<div class="sep"></div>
+<h2>POWERPOINT – EXPUNERE / WORDART / FORME</h2>
+<h3>Custom Show (ex: exp321_2025, ordine 3-2-1)</h3>
+<p>Prezentare diapozitive → Prezentări particularizate → Nou → Nume: exp321_2025 → adaugi slide-urile în ordine 3,2,1 → OK.</p>
+<h3>Derulare într-o fereastră</h3>
+<p>Prezentare diapozitive → Configurare prezentare → Răsfoit de o persoană (fereastră) → OK.</p>
+<h3>WordArt circular cu umbră 25pt</h3>
+<p>Inserare → WordArt → alegi stilul → tastezi textul → Format formă → Efecte text → Transformare → alegi cerc. Umbră: Efecte text → Umbră → Opțiuni umbră → Distanță: 25pt.</p>
+<h3>Inserare formă (Trapez, Săgeată)</h3>
+<p>Inserare → Forme → alegi forma → desenezi cu drag. Dublu-click pe formă pt text.</p>
+<h3>Grupare forme</h3>
+<p>Selectezi formele (Ctrl+click) → click dreapta → Grupare.</p>
+<h3>Aliniere forme</h3>
+<p>Selectezi → Format → Aliniere → Stânga/Centru/Dreapta/Sus/Mijloc/Jos sau Distribuire uniformă.</p>
+</div>
+<div>
+<h2>POWERPOINT – DIVERSE / TIPĂRIRE</h2>
+<h3>Inserare tabel în slide</h3>
+<p>Inserare → Tabel → alegi dimensiunea.</p>
+<h3>Inserare diagramă</h3>
+<p>Inserare → Diagramă → alegi tipul → OK → completezi datele.</p>
+<h3>Inserare casetă text</h3>
+<p>Inserare → Casetă text → desenezi cu drag → tastezi.</p>
+<h3>Inserare video/audio</h3>
+<p>Inserare → Video/Audio → Din fișier sau online.</p>
+<h3>Note presenter</h3>
+<p>Click în zona Note (jos, sub slide) → tastezi notele.</p>
+<h3>Duplicare slide</h3>
+<p>Click dreapta pe slide → Duplicare diapozitiv sau <span class="cmd">Ctrl+D</span>.</p>
+<h3>Mutare slide</h3>
+<p>Drag-and-drop în panoul stânga sau Sortare diapozitive (View → Slide Sorter).</p>
+<h3>Ascundere slide</h3>
+<p>Click dreapta pe slide → Ascundere diapozitiv. Slide-ul rămâne în fișier dar nu apare la prezentare.</p>
+<h3>Slide Master</h3>
+<p>Vizualizare → Diapozitiv master → modifici → Închidere vizualizare master.</p>
+<h3>Schimbare layout slide</h3>
+<p>Click dreapta pe slide → Aspect (Layout) → alegi layout-ul.</p>
+<h3>Crop imagine</h3>
+<p>Click imagine → Format imagine → Decupare → tragi marginile.</p>
+<h3>Tipărire prezentare</h3>
+<p><span class="cmd">Ctrl+P</span> → Aspect: alegi nr slide-uri/pagină (Handouts 2/4/6/9), cu/fără note, cu/fără chenare.</p>
+<h3>Examinare cronometraj / Rehearse Timings</h3>
+<p>Prezentare diapozitive → Examinare cronometraj → avansezi manual → salvezi timpii.</p>
+<h3>Pensulă formatare (Format Painter)</h3>
+<p>Click pe obiect sursă → Acasă → Pensulă → click pe obiect destinație.</p>
+<h3>Găsire/Înlocuire în PPT</h3>
+<p><span class="cmd">Ctrl+H</span> → Găsiți → Înlocuiți cu → Înlocuiți tot.</p>
+</div>
+</div>
+</div>
+
+<!-- ═══ ACCESS ═══ -->
+<div id="access">
+<div class="grid">
+<div>
+<h2>ACCESS – TABELE</h2>
+<h3>Creare tabelă nouă în Design View</h3>
+<p>Creare → <b>Proiectare tabelă (Table Design)</b> → definești câmpurile → Ctrl+S → tastezi numele → OK.</p>
+<h3>Cheie primară / Primary Key</h3>
+<p>Click pe câmpul dorit → Design → <b>Cheie primară</b> (apare cheia 🔑). SAU: click dreapta pe câmp → Cheie primară.</p>
+<h3>Tipuri de câmpuri</h3>
+<table>
+<tr><th>Tip RO</th><th>EN</th><th>Note</th></tr>
+<tr><td><b>Text scurt</b></td><td>Short Text</td><td>Max 255 caractere</td></tr>
+<tr><td><b>Text lung / Memo</b></td><td>Long Text</td><td>Texte lungi</td></tr>
+<tr><td><b>Număr</b></td><td>Number</td><td>Întreg, Dublu etc.</td></tr>
+<tr><td><b>AutoNumăr</b></td><td>AutoNumber</td><td>ID automat, cheie primară</td></tr>
+<tr><td><b>Dată/Oră</b></td><td>Date/Time</td><td>Date și ore</td></tr>
+<tr><td><b>Monedă</b></td><td>Currency</td><td>Valori monetare</td></tr>
+<tr><td><b>Da/Nu</b></td><td>Yes/No</td><td>Checkbox boolean</td></tr>
+<tr><td><b>Hyperlink</b></td><td>Hyperlink</td><td>Adrese web/fișiere</td></tr>
+</table>
+<h3>Dimensiune câmp text (max 30 caractere)</h3>
+<p>Click pe câmpul text → jos în Proprietăți → <b>Dimensiune câmp</b>: tastezi <b>30</b>.</p>
+<h3>Valoare implicită / Default Value</h3>
+<p>Proprietăți câmp → <b>Valoare implicită</b>: ex <span class="cmd">=Year(Now())</span> (an curent), <span class="cmd">=Date()</span> (azi), <span class="cmd">0</span>.</p>
+<h3>Câmp obligatoriu / Required</h3>
+<p>Proprietăți → Obligatoriu: Da.</p>
+<h3>Indexare câmp</h3>
+<p>Proprietăți → Indexat: Da (Fără duplicate) pentru unicitate.</p>
+<h3>Adăugare înregistrare nouă</h3>
+<p>Deschizi tabela (dublu-click) → click pe rândul <b>*</b> → completezi câmpurile → Enter/Tab → Ctrl+S.</p>
+<h3>Relații între tabele</h3>
+<p>Instrumente baze de date → Relații → Afișare tabelă → adaugi tabelele → tragi câmpul cheie externă peste cheie primară → alegi tipul → OK.</p>
+
+<div class="sep"></div>
+<h2>ACCESS – INTEROGĂRI (QUERIES)</h2>
+<h3>Deschidere în Design View</h3>
+<p>Click dreapta pe interogare → <b>Vizualizare proiectare</b>. SAU Creare → Proiectare interogare.</p>
+<h3>Adăugare câmp în interogare</h3>
+<p>Dublu-click pe câmpul din tabela de sus SAU drag-and-drop pe grila de jos.</p>
+<h3>Criterii / Criteria</h3>
+<table>
+<tr><th>Condiție</th><th>Sintaxă Access</th></tr>
+<tr><td>Interval [400,1000]</td><td><span class="cmd">&gt;=400 And &lt;=1000</span> sau <span class="cmd">Between 400 And 1000</span></td></tr>
+<tr><td>Strict mai mare ca 1500</td><td><span class="cmd">&gt;1500</span></td></tr>
+<tr><td>Egal cu "BAC"</td><td><span class="cmd">"BAC"</span></td></tr>
+<tr><td>Conține "text"</td><td><span class="cmd">Like "*text*"</span></td></tr>
+<tr><td>Nu este null</td><td><span class="cmd">Is Not Null</span></td></tr>
+<tr><td>Interval [1900,1960]</td><td><span class="cmd">Between 1900 And 1960</span></td></tr>
+</table>
+<h3>Sortare în interogare</h3>
+<p>Click pe rândul <b>Sortare</b> al coloanei → Ascendent sau Descendent.</p>
+<h3>Câmp calculat</h3>
+<p>Într-o coloană goală, la Câmp tastezi: <span class="cmd">NumeNou: [Câmp1]*[Câmp2]</span></p>
+<h3>Totalizare / Group By</h3>
+<p>Design → Totale → rândul Total → Group By, Sum, Avg, Count, Max, Min.</p>
+<h3>Rulare interogare</h3>
+<p>Design → butonul <b>!</b> (Executare/Run) sau <span class="cmd">F5</span>.</p>
+</div>
+<div>
+<h2>ACCESS – RAPOARTE / FORMULARE</h2>
+<h3>Creare raport cu Expert / Report Wizard</h3>
+<p>Creare → <b>Expert raport</b> → alegi tabela → selectezi câmpurile → Next → setezi gruparea → setezi sortarea → alegi layout → tastezi numele raportului → Terminare.</p>
+<h3>Grupare date în raport</h3>
+<p>La pasul Grupare: selectezi câmpul de grupat → click <b>&gt;</b>. Ultimul câmp = selectezi ultimul câmp disponibil.</p>
+<h3>Sortare în raport</h3>
+<p>La pasul Sortare: alegi câmpul → Ascendent/Descendent. Alfabetic = câmpul text, Ascendent.</p>
+<h3>Câmpuri de tip text</h3>
+<p>= câmpuri cu tipul "Text scurt" sau "Text lung" (NU Număr, Dată, AutoNumăr). Identifici în Design View după tipul de date.</p>
+<h3>Modificare raport existent</h3>
+<p>Click dreapta pe raport → Vizualizare proiectare / Vizualizare aspect.</p>
+<h3>Creare formular simplu</h3>
+<p>Selectezi tabela → Creare → <b>Formular</b>. Sau: Creare → Expert formular.</p>
+<h3>Formular în Design View</h3>
+<p>Creare → Proiectare formular → adaugi câmpuri din panoul dreapta.</p>
+<h3>Antet/Subsol raport</h3>
+<p>În Design View al raportului → Vizualizare → Antet și subsol raport. Adaugi câmpuri de text/calcul în secțiunile respective.</p>
+
+<div class="sep"></div>
+<h2>ACCESS – SHORTCUTS</h2>
+<table>
+<tr><th>Acțiune</th><th>Shortcut</th></tr>
+<tr><td>Salvare</td><td><span class="cmd">Ctrl+S</span></td></tr>
+<tr><td>Vizualizare Design</td><td>Click dreapta → Design View</td></tr>
+<tr><td>Rulare interogare</td><td><span class="cmd">!</span> sau <span class="cmd">F5</span></td></tr>
+<tr><td>Anulare</td><td><span class="cmd">Ctrl+Z</span> sau <span class="cmd">Esc</span></td></tr>
+<tr><td>Înregistrare nouă</td><td>Butonul <b>*</b> sau <span class="cmd">Ctrl++</span></td></tr>
+<tr><td>Ștergere înregistrare</td><td>Selectezi rândul → <span class="cmd">Delete</span></td></tr>
+</table>
+</div>
+</div>
+</div>
+
+<!-- ═══ HTML ═══ -->
+<div id="html">
+<div class="grid">
+<div>
+<h2>HTML – STRUCTURĂ ȘI ETICHETE</h2>
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Titlul paginii&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Paragraf&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+<table>
+<tr><th>Etichetă</th><th>Efect</th></tr>
+<tr><td><span class="cmd">&lt;b&gt; / &lt;strong&gt;</span></td><td>Aldin (Bold)</td></tr>
+<tr><td><span class="cmd">&lt;i&gt; / &lt;em&gt;</span></td><td>Cursiv (Italic)</td></tr>
+<tr><td><span class="cmd">&lt;u&gt;</span></td><td>Subliniat</td></tr>
+<tr><td><span class="cmd">&lt;s&gt; / &lt;strike&gt;</span></td><td>Tăiat (Strikethrough)</td></tr>
+<tr><td><span class="cmd">&lt;sup&gt;</span></td><td>Exponent (Superscript)</td></tr>
+<tr><td><span class="cmd">&lt;sub&gt;</span></td><td>Indice (Subscript)</td></tr>
+<tr><td><span class="cmd">&lt;br&gt;</span></td><td>Salt rând</td></tr>
+<tr><td><span class="cmd">&lt;hr&gt;</span></td><td>Linie orizontală</td></tr>
+<tr><td><span class="cmd">&lt;p&gt;</span></td><td>Paragraf</td></tr>
+<tr><td><span class="cmd">&lt;h1&gt;...&lt;h6&gt;</span></td><td>Titluri (heading)</td></tr>
+<tr><td><span class="cmd">&lt;span&gt;</span></td><td>Formatare inline</td></tr>
+<tr><td><span class="cmd">&lt;div&gt;</span></td><td>Bloc generic</td></tr>
+<tr><td><span class="cmd">&lt;pre&gt;</span></td><td>Text preformatat</td></tr>
+</table>
+
+<h2>HTML – ALINIERE / FONT / CULOARE</h2>
+<pre>&lt;p align="left"&gt;Stânga&lt;/p&gt;
+&lt;p align="right"&gt;Dreapta&lt;/p&gt;
+&lt;p align="center"&gt;Centru&lt;/p&gt;
+&lt;p align="justify"&gt;Stânga-dreapta&lt;/p&gt;
+&lt;!-- CSS inline: --&gt;
+&lt;p style="text-align:center"&gt;Centru&lt;/p&gt;
+
+&lt;font face="Verdana" color="red"&gt;text&lt;/font&gt;
+&lt;p style="font-family:Verdana; color:red"&gt;text&lt;/p&gt;
+&lt;!-- Doar prima literă roșie: --&gt;
+&lt;p style="font-family:Verdana"&gt;&lt;span style="color:red"&gt;P&lt;/span&gt;aragraf...&lt;/p&gt;
+
+&lt;u&gt;subliniat&lt;/u&gt;
+&lt;s&gt;tăiat&lt;/s&gt;
+&lt;span style="text-decoration:underline"&gt;subliniat&lt;/span&gt;
+&lt;span style="text-decoration:line-through"&gt;tăiat&lt;/span&gt;</pre>
+
+<h2>HTML – CARACTERE SPECIALE</h2>
+<table>
+<tr><th>Simbol</th><th>Cod</th><th>Entitate</th></tr>
+<tr><td>ρ (rho, cod 961)</td><td><span class="cmd">&amp;#961;</span></td><td><span class="cmd">&amp;rho;</span></td></tr>
+<tr><td>α (alfa)</td><td><span class="cmd">&amp;#945;</span></td><td><span class="cmd">&amp;alpha;</span></td></tr>
+<tr><td>β (beta)</td><td><span class="cmd">&amp;#946;</span></td><td><span class="cmd">&amp;beta;</span></td></tr>
+<tr><td>π (pi)</td><td><span class="cmd">&amp;#960;</span></td><td><span class="cmd">&amp;pi;</span></td></tr>
+<tr><td>© copyright</td><td><span class="cmd">&amp;#169;</span></td><td><span class="cmd">&amp;copy;</span></td></tr>
+<tr><td>€ euro</td><td><span class="cmd">&amp;#8364;</span></td><td><span class="cmd">&amp;euro;</span></td></tr>
+<tr><td>&amp; ampersand</td><td><span class="cmd">&amp;#38;</span></td><td><span class="cmd">&amp;amp;</span></td></tr>
+<tr><td>&lt; mai mic</td><td><span class="cmd">&amp;#60;</span></td><td><span class="cmd">&amp;lt;</span></td></tr>
+<tr><td>&gt; mai mare</td><td><span class="cmd">&amp;#62;</span></td><td><span class="cmd">&amp;gt;</span></td></tr>
+<tr><td>spațiu</td><td><span class="cmd">&amp;#160;</span></td><td><span class="cmd">&amp;nbsp;</span></td></tr>
+</table>
+<p><b>Format: <span class="cmd">&amp;#COD;</span></b> — ex: cod 961 → <span class="cmd">&amp;#961;</span></p>
+</div>
+<div>
+<h2>HTML – IMAGINI / LINK-URI / HR</h2>
+<pre>&lt;img src="imagine.jpg"&gt;
+&lt;img src="p.jpg" width="200" height="150" alt="desc"&gt;
+&lt;!-- lățime &gt; înălțime: --&gt;
+&lt;img src="p.jpg" width="300" height="100"&gt;
+&lt;!-- lățime &lt; înălțime: --&gt;
+&lt;img src="p.jpg" width="100" height="300"&gt;
+&lt;img src="p.jpg" align="left"&gt;
+
+&lt;a href="pagina.html"&gt;text link&lt;/a&gt;
+&lt;a href="comp_i"&gt;TERRA&lt;/a&gt;
+&lt;a href="https://google.com" target="_blank"&gt;Nou tab&lt;/a&gt;
+&lt;!-- link pe imagine: --&gt;
+&lt;a href="p.html"&gt;&lt;img src="img.jpg"&gt;&lt;/a&gt;
+
+&lt;hr&gt;
+&lt;hr width="25%"&gt;      &lt;!-- 25% din lățimea ferestrei --&gt;
+&lt;hr width="200"&gt;      &lt;!-- 200 pixeli fix --&gt;
+&lt;hr size="5" color="red"&gt;
+&lt;!-- HR înainte de imagine: adaugă pe linia de DEASUPRA &lt;img&gt; --&gt;</pre>
+
+<h2>HTML – TABELE / LISTE</h2>
+<pre>&lt;table border="5" bordercolor="red"&gt;
+  &lt;tr&gt;&lt;th&gt;Cap1&lt;/th&gt;&lt;th&gt;Cap2&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;val1&lt;/td&gt;&lt;td&gt;val2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;!-- Atribute utile: --&gt;
+border="5"  bordercolor="red"  width="100%"
+cellpadding="5"  cellspacing="0"  bgcolor="yellow"
+align="center"  colspan="2"  rowspan="2"
+
+&lt;!-- Tabel ca chenar paragraf: --&gt;
+&lt;table border="5" bordercolor="red"&gt;
+  &lt;tr&gt;&lt;td&gt;Textul paragrafului...&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;&lt;li&gt;bulină&lt;/li&gt;&lt;/ul&gt;
+&lt;ol&gt;&lt;li&gt;numărată&lt;/li&gt;&lt;/ol&gt;</pre>
+
+<h2>HTML – CSS INLINE ESENȚIAL</h2>
+<table>
+<tr><th>Proprietate</th><th>Valori exemple</th></tr>
+<tr><td>color</td><td>red, #FF0000, rgb(255,0,0)</td></tr>
+<tr><td>background-color</td><td>yellow, #FFFF00</td></tr>
+<tr><td>font-family</td><td>Verdana, Arial, "Times New Roman"</td></tr>
+<tr><td>font-size</td><td>16px, 14pt, 1.2em</td></tr>
+<tr><td>font-weight</td><td>bold, normal</td></tr>
+<tr><td>font-style</td><td>italic, normal</td></tr>
+<tr><td>text-align</td><td>left, right, center, justify</td></tr>
+<tr><td>text-decoration</td><td>underline, line-through, none</td></tr>
+<tr><td>width / height</td><td>200px, 50%, auto</td></tr>
+<tr><td>border</td><td>1px solid red</td></tr>
+<tr><td>margin / padding</td><td>10px, 0 auto</td></tr>
+</table>
+
+<h2>HTML – EXEMPLE BAC</h2>
+<pre>&lt;!-- Densitate ρ cu cod HTML 961: --&gt;
+&lt;p&gt;[&amp;#961;]=kg/m&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
+&lt;!-- H2O: --&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;!-- Subliniere + tăiat primele 2 cuvinte: --&gt;
+&lt;p&gt;&lt;u&gt;Primul&lt;/u&gt; &lt;s&gt;doilea&lt;/s&gt; restul...&lt;/p&gt;
+&lt;!-- Paragraf nou înainte de primul paragraf: --&gt;
+&lt;!-- Deschizi fisierul în Notepad, adaugi ÎNAINTE de primul &lt;p&gt;: --&gt;
+&lt;p&gt;[&amp;#961;]=kg/m&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
+&lt;!-- HR cu 25% înainte de imagine: --&gt;
+&lt;hr width="25%"&gt;
+&lt;img src="imagine.jpg"&gt;</pre>
+</div>
+</div>
+</div>
+
+<!-- ═══ FISIERE + SISTEM ═══ -->
+<div id="fisiere">
+<div class="grid">
+<div>
+<h2>FIȘIERE – OPERAȚII ESENȚIALE</h2>
+<h3>Creare fișier text (.txt)</h3>
+<p>Click dreapta pe spațiu liber → Nou → Document text → tastezi numele (ex: img2025.txt) → Enter → dublu-click → scrii conținutul → Ctrl+S.</p>
+<h3>Creare folder</h3>
+<p>Click dreapta → Nou → Director (Folder) → tastezi → Enter. SAU: <span class="cmd">Ctrl+Shift+N</span>.</p>
+<h3>Redenumire</h3>
+<p>Click dreapta → Redenumire → Enter. SAU: click fișier → <span class="cmd">F2</span> → tastezi → Enter.</p>
+<h3>Ștergere</h3>
+<p><span class="cmd">Delete</span> = în Coș | <span class="cmd">Shift+Delete</span> = permanent.</p>
+<h3>Copiere / Mutare</h3>
+<p>Ctrl+C=copiere | Ctrl+X=decupare | Ctrl+V=lipire. SAU: drag (mutare) sau Ctrl+drag (copiere).</p>
+<h3>Calea completă a unui fișier</h3>
+<p>Click dreapta → Proprietăți → câmpul Locație. SAU: Shift+click dreapta → Copiere cale. SAU: click în bara de adrese.</p>
+<h3>Vizualizare ca Listă</h3>
+<p>Fila <b>Vizualizare</b> → <b>Listă</b> sau butonul de vizualizare din bara de instrumente.</p>
+<h3>Selectare fișiere la poziții impare (1, 3, 5...)</h3>
+<p>Click pe primul → ții <span class="cmd">Ctrl</span> → click pe al 3-lea, al 5-lea...</p>
+<h3>Selectare tot</h3>
+<p><span class="cmd">Ctrl+A</span>.</p>
+<h3>Afișare extensii fișiere</h3>
+<p>File Explorer → Vizualizare → bifezi <b>Extensii de nume de fișier</b>.</p>
+<h3>Afișare fișiere ascunse</h3>
+<p>Vizualizare → bifezi <b>Elemente ascunse</b>.</p>
+
+<div class="sep"></div>
+<h2>EXTENSII FIȘIERE COMUNE</h2>
+<table>
+<tr><th>Extensie</th><th>Tip fișier</th></tr>
+<tr><td>.docx / .doc</td><td>Microsoft Word</td></tr>
+<tr><td>.xlsx / .xls</td><td>Microsoft Excel</td></tr>
+<tr><td>.pptx / .ppt</td><td>Microsoft PowerPoint</td></tr>
+<tr><td>.accdb / .mdb</td><td>Microsoft Access</td></tr>
+<tr><td>.pdf</td><td>Adobe PDF</td></tr>
+<tr><td>.txt</td><td>Text simplu (Notepad)</td></tr>
+<tr><td>.html / .htm</td><td>Pagina web</td></tr>
+<tr><td>.jpg / .jpeg</td><td>Imagine comprimată</td></tr>
+<tr><td>.png</td><td>Imagine cu transparență</td></tr>
+<tr><td>.gif</td><td>Imagine animată</td></tr>
+<tr><td>.bmp</td><td>Bitmap (necomprimat)</td></tr>
+<tr><td>.mp3</td><td>Audio comprimat</td></tr>
+<tr><td>.mp4 / .avi</td><td>Video</td></tr>
+<tr><td>.zip / .rar / .7z</td><td>Arhivă comprimată</td></tr>
+<tr><td>.exe</td><td>Program executabil Windows</td></tr>
+<tr><td>.odt / .ods / .odp</td><td>LibreOffice Writer/Calc/Impress</td></tr>
+</table>
+
+<div class="sep"></div>
+<h2>CAPTURI DE ECRAN (PRINT SCREEN)</h2>
+<h3>Captură tot ecranul</h3>
+<p><span class="cmd">PrtScn</span> → deschizi Paint → Ctrl+V → Ctrl+S → salvezi ca PNG.</p>
+<h3>Captură fereastra activă</h3>
+<p><span class="cmd">Alt+PrtScn</span> → Paint → Ctrl+V → salvezi.</p>
+<h3>Captură selectivă</h3>
+<p><span class="cmd">Win+Shift+S</span> → selectezi zona → Ctrl+V în Paint.</p>
+<h3>2 capturi în același fișier Paint</h3>
+<p>Captură 1 → Ctrl+V în Paint → extinzi canvas-ul → captură 2 → Ctrl+V → muți sub prima → Ctrl+S.</p>
+<h3>Salvare ca PNG în Paint</h3>
+<p>Ctrl+S sau Fișier → Salvare ca → <b>Imagine PNG (*.png)</b> → navighezi la directorul examen → tastezi numele → Salvare.</p>
+</div>
+<div>
+<h2>ARHIVE / SISTEM / WINDOWS ACCESSORIES</h2>
+<h3>Extragere din arhivă ZIP/RAR</h3>
+<p>Dublu-click pe arhivă (ZIP) sau deschidere cu WinRAR/7-Zip. Extragere tot: click dreapta → Extragere fișiere. Extragere un fișier: deschizi arhiva → selectezi fișierul → drag afară sau click dreapta → Extrage.</p>
+<h3>Creare arhivă ZIP</h3>
+<p>Selectezi fișierele → click dreapta → Comprimare în fișier ZIP / Trimitere spre → Director comprimat.</p>
+<h3>Notepad</h3>
+<p>Editor text simplu. Deschidere: Start → tastezi "notepad". Formate: .txt. Fără formatare. Util pentru editare HTML, fisiere config. Ctrl+S = salvare, Ctrl+Z = undo.</p>
+<h3>Paint</h3>
+<p>Editor imagini simplu. Start → tastezi "paint". Formate: BMP, PNG, JPG, GIF. Instrumente: Creion, Umplere (găleată), Forme, Text, Decupare, Radieră. Redimensionare: Acasă → Redimensionare.</p>
+<h3>Dreptunghi cu colțuri rotunjite pe fond galben în Paint</h3>
+<p>Culoare 2 (fundal)=galben → Umplere → click canvas → Forme → Dreptunghi cu colțuri rotunjite → desenezi → Ctrl+S → PNG → nume implicit.</p>
+<h3>Calculator (Calculator)</h3>
+<p>Start → tastezi "calculator". Moduri: Standard, Științific, Programator, Conversie unități.</p>
+<h3>WordPad</h3>
+<p>Editor text cu formatare de bază (font, culoare, aliniere). Suportă .rtf, .docx. Mai avansat decât Notepad.</p>
+<h3>Task Manager</h3>
+<p><span class="cmd">Ctrl+Shift+Esc</span> (direct). File Procese=aplicații active | File Performanță → CPU=grafic timp real. Poți termina un proces: selectezi → Terminare activitate (End Task).</p>
+<h3>Inchidere aplicație blocată</h3>
+<p>Task Manager → Procese → selectezi aplicația blocată → <b>Terminare activitate (End Task)</b>.</p>
+<h3>Informații sistem (RAM, versiune OS)</h3>
+<p>Click dreapta Acest PC → Proprietăți. SAU: <span class="cmd">Win+Pause</span>. SAU: Setări → Sistem → Despre.</p>
+<h3>Device Manager (Gestionar dispozitive)</h3>
+<p>Click dreapta Acest PC → Proprietăți → Gestionar dispozitive. Gestionezi drivere, vezi ce dispozitive au probleme (semn !).</p>
+<h3>Control Panel (Panou de control)</h3>
+<p>Start → tastezi "panou de control". Setări sistem, utilizatori, rețea, imprimante, programe.</p>
+
+<div class="sep"></div>
+<h2>TIPĂRIRE – OPȚIUNI COMPLETE</h2>
+<h3>Dialog tipărire (Ctrl+P)</h3>
+<table>
+<tr><th>Opțiune</th><th>Descriere</th></tr>
+<tr><td><b>Imprimantă</b></td><td>Alege imprimanta sau "Salvare ca PDF"</td></tr>
+<tr><td><b>Copii</b></td><td>Numărul de exemplare</td></tr>
+<tr><td><b>Interval pagini</b></td><td>All / Current / Custom (ex: 1-3, 5)</td></tr>
+<tr><td><b>Orientare</b></td><td>Portret / Vedere (Portrait/Landscape)</td></tr>
+<tr><td><b>Față-verso (Duplex)</b></td><td>Tipărire pe ambele fețe</td></tr>
+<tr><td><b>Asamblare (Collate)</b></td><td>1,2,3/1,2,3 vs 1,1,1/2,2,2</td></tr>
+<tr><td><b>Pagini/coală (N-up)</b></td><td>2/4/6 pagini pe coală</td></tr>
+<tr><td><b>Calitate (DPI)</b></td><td>Ciornă/Normal/Înaltă</td></tr>
+</table>
+<h3>Instalare imprimantă</h3>
+<p>Setări → Bluetooth și dispozitive → Imprimante → Adăugare dispozitiv. SAU: USB → Windows instalează automat. Manual: driver de pe site producătorului → rulezi instalatorul.</p>
+<h3>Coadă tipărire (Print Queue)</h3>
+<p>Setări → Imprimante → click pe imprimantă → Gestionare → Deschidere coadă. Poți: Pauză, Reluare, Anulare.</p>
+<h3>Imprimantă implicită</h3>
+<p>Setări → Imprimante → click dreapta → Setare ca implicită.</p>
+
+<div class="sep"></div>
+<h2>SHORTCUTS WINDOWS</h2>
+<table>
+<tr><th>Shortcut</th><th>Acțiune</th></tr>
+<tr><td><span class="cmd">Ctrl+C/X/V</span></td><td>Copiere/Decupare/Lipire</td></tr>
+<tr><td><span class="cmd">Ctrl+Z / Ctrl+Y</span></td><td>Undo / Redo</td></tr>
+<tr><td><span class="cmd">Ctrl+S</span></td><td>Salvare</td></tr>
+<tr><td><span class="cmd">Ctrl+A</span></td><td>Selectare tot</td></tr>
+<tr><td><span class="cmd">Ctrl+F</span></td><td>Căutare</td></tr>
+<tr><td><span class="cmd">Ctrl+P</span></td><td>Tipărire</td></tr>
+<tr><td><span class="cmd">Alt+Tab</span></td><td>Comutare între ferestre</td></tr>
+<tr><td><span class="cmd">Win+D</span></td><td>Desktop</td></tr>
+<tr><td><span class="cmd">Win+E</span></td><td>File Explorer</td></tr>
+<tr><td><span class="cmd">Win+Shift+S</span></td><td>Snipping Tool</td></tr>
+<tr><td><span class="cmd">Alt+PrtScn</span></td><td>Captură fereastră activă</td></tr>
+<tr><td><span class="cmd">Win+Pause</span></td><td>Informații sistem</td></tr>
+<tr><td><span class="cmd">F2</span></td><td>Redenumire (în File Explorer)</td></tr>
+<tr><td><span class="cmd">Delete</span></td><td>Ștergere în Coș</td></tr>
+<tr><td><span class="cmd">Shift+Delete</span></td><td>Ștergere permanentă</td></tr>
+<tr><td><span class="cmd">Win+L</span></td><td>Blocare ecran</td></tr>
+<tr><td><span class="cmd">Win+R</span></td><td>Run (deschide program direct)</td></tr>
+<tr><td><span class="cmd">Ctrl+Shift+Esc</span></td><td>Task Manager</td></tr>
+</table>
+</div>
+</div>
+</div>
+
+<!-- ═══ TEORIE IT ═══ -->
+<div id="teorie">
+<div class="grid">
+<div>
+<h2>HARDWARE – COMPONENTE</h2>
+<h3>CPU (Unitatea Centrală de Procesare)</h3>
+<p>"Creierul" calculatorului. Caracterizat de: <b>frecvență (GHz)</b> – viteza de calcul; <b>număr nuclee (cores)</b>. Ex: Intel Core i5 3.2GHz, AMD Ryzen 5. Mai mult GHz și mai multe nuclee = performanță mai bună.</p>
+<h3>RAM (Random Access Memory)</h3>
+<p><b>Volatilă</b> (se șterge la oprire). Stochează datele programelor în execuție. Unitate: <b>GB</b>. Ex: 8GB, 16GB DDR4. Mai mult RAM = mai multe programe simultane, sistem mai fluid.</p>
+<h3>ROM (Read Only Memory)</h3>
+<p><b>Nevolatilă</b> (păstrează datele la oprire). Conține firmware-ul (BIOS). Nu poate fi modificată de utilizator în mod normal.</p>
+<h3>BIOS / UEFI</h3>
+<p>Firmware pe placa de bază. Inițializează hardware-ul la pornire, verifică componentele (POST), lansează SO. Acces la pornire cu Del, F2 sau F12.</p>
+<h3>Dispozitive de stocare</h3>
+<table>
+<tr><th>Tip</th><th>Viteză</th><th>Cost</th><th>Capacitate</th></tr>
+<tr><td><b>HDD</b></td><td>Medie (~150MB/s)</td><td>Mic</td><td>500GB–4TB</td></tr>
+<tr><td><b>SSD</b></td><td>Mare (~500MB/s)</td><td>Mare</td><td>128GB–2TB</td></tr>
+<tr><td><b>NVMe SSD</b></td><td>Foarte mare (3-7GB/s)</td><td>Foarte mare</td><td>256GB–2TB</td></tr>
+<tr><td><b>USB Flash</b></td><td>Mică/Medie</td><td>Mediu</td><td>4GB–512GB</td></tr>
+<tr><td><b>CD/DVD</b></td><td>Mică</td><td>Mic</td><td>700MB/4.7GB</td></tr>
+<tr><td><b>Card SD</b></td><td>Medie</td><td>Mediu</td><td>2GB–512GB</td></tr>
+</table>
+<h3>Unități de măsură</h3>
+<table>
+<tr><td><b>1 Bit</b></td><td>0 sau 1</td><td><b>1 KB</b></td><td>1024 B</td></tr>
+<tr><td><b>1 Byte</b></td><td>8 biți</td><td><b>1 MB</b></td><td>1024 KB</td></tr>
+<tr><td><b>1 GB</b></td><td>1024 MB</td><td><b>1 TB</b></td><td>1024 GB</td></tr>
+</table>
+
+<h2>PERIFERICE DE INTRARE</h2>
+<h3>Tastatură</h3>
+<p>Tipuri: mecanică, membrană, wireless, ergonomică. <b>F1-F12</b>: taste funcționale. <b>Ctrl/Alt/Shift/Win</b>: taste modificatoare. <b>PrtScn</b>=captură ecran, <b>CapsLock</b>=majuscule fixe, <b>Num Lock</b>=cifre tastatura numerică. Tastatură <b>QWERTY</b> (EN) vs <b>QWERTZ</b> (DE).</p>
+<h3>Mouse</h3>
+<p>Tipuri: optic, laser, wireless, gaming. Caracterizat de <b>DPI</b> = sensibilitate. DPI mai mare = mișcare mai rapidă a cursorului pe ecran.</p>
+<h3>Scanner</h3>
+<p>Digitalizează documente/imagini. Caracterizat de <b>DPI</b> (rezoluție scanare). DPI mai mare = imagine mai detaliată. Ex: 300DPI pentru texte, 600+DPI pentru fotografii.</p>
+<h3>Microfon</h3>
+<p>Captează sunet. Utilizat pentru VoIP, înregistrări, comenzi vocale.</p>
+<h3>Webcam</h3>
+<p>Captează imagini video. Caracterizată de rezoluție (ex: 1080p) și FPS.</p>
+<h3>Alte dispozitive de intrare</h3>
+<p><b>Touchpad</b>=ecran tactil laptop. <b>Trackball</b>=bilă rotativă. <b>Joystick</b>=control jocuri. <b>Light pen</b>=creion optic. <b>Tabletă grafică</b>=desen digital. <b>Touch screen</b>=intrare ȘI ieșire.</p>
+
+<h2>PERIFERICE DE IEȘIRE</h2>
+<h3>Monitor</h3>
+<p><b>Rezoluție</b>: 1920×1080 (Full HD), 2560×1440 (QHD), 3840×2160 (4K). <b>Diagonală</b>: în inci. <b>Frecvență</b>: 60Hz, 144Hz. <b>Tip panou</b>: TN (ieftin, rapid), IPS (culori bune), VA (contrast). Conexiuni: HDMI, DisplayPort, VGA.</p>
+<h3>Imprimantă</h3>
+<p>Caracterizată de: <b>DPI</b> (calitate), <b>ppm</b> (pagini/minut). <b>Laser</b>: toner, rapidă, cost mic/pagină. <b>Inkjet</b>: cerneală, ieftină la achiziție, mai lentă.</p>
+<h3>Plotter</h3>
+<p>Imprimantă format mare. Utilizat în arhitectură, inginerie, design.</p>
+<h3>Periferice I/O (intrare-ieșire)</h3>
+<p><b>Modem</b>: semnal digital↔analog. <b>Touch screen</b>. <b>HDD extern</b>. <b>USB stick</b>.</p>
+</div>
+<div>
+<h2>SOFTWARE – TIPURI ȘI LICENȚE</h2>
+<h3>Software de sistem</h3>
+<p>Gestionează resursele hardware. Include: <b>SO</b>, drivere, utilitare. Exemple SO: <b>Windows</b> (10, 11), <b>Linux</b> (Ubuntu), <b>macOS</b>, <b>Android</b>, <b>iOS</b>.</p>
+<h3>Funcțiile unui SO</h3>
+<p>1. Gestionarea CPU (planificare taskuri). 2. Gestionarea RAM. 3. Gestionarea fișierelor/directorilor. 4. Gestionarea dispozitivelor (prin drivere). 5. Interfața utilizator (GUI/CLI). 6. Securitate și drepturi de acces.</p>
+<h3>Software aplicativ</h3>
+<p>Word, Excel, PowerPoint, Access, Chrome, Outlook, Photoshop, VLC, jocuri etc.</p>
+<h3>Driver</h3>
+<p>Permite SO să comunice cu un dispozitiv hardware. La prima conectare poate fi necesar. Se instalează automat (Windows Update) sau manual (site producător/CD livrat).</p>
+<h3>Licențe software</h3>
+<table>
+<tr><th>Tip</th><th>Descriere</th><th>Exemple</th></tr>
+<tr><td><b>Comercial</b></td><td>Plătit, fără cod sursă</td><td>Windows, Office, Photoshop</td></tr>
+<tr><td><b>Freeware</b></td><td>Gratuit, fără cod sursă</td><td>VLC, 7-Zip, Adobe Reader</td></tr>
+<tr><td><b>Shareware</b></td><td>Gratuit perioadă trial, apoi plătit</td><td>WinRAR</td></tr>
+<tr><td><b>Open Source</b></td><td>Cod sursă disponibil, gratuit</td><td>LibreOffice, Firefox, Linux</td></tr>
+<tr><td><b>GPL</b></td><td>Open source cu restricții redistribuire</td><td>Linux, WordPress</td></tr>
+</table>
+
+<h2>VIRUȘI ȘI SECURITATE</h2>
+<h3>Tipuri de malware</h3>
+<table>
+<tr><th>Tip</th><th>Descriere</th><th>Efect</th></tr>
+<tr><td><b>Virus</b></td><td>Se atașează la fișiere, se multiplică</td><td>Corupere fișiere, sistem lent</td></tr>
+<tr><td><b>Vierme (Worm)</b></td><td>Se propagă prin rețea automat</td><td>Consumă lățime de bandă</td></tr>
+<tr><td><b>Troian</b></td><td>Se deghizează în program util</td><td>Furt date, acces neautorizat</td></tr>
+<tr><td><b>Ransomware</b></td><td>Criptează fișierele, cere răscumpărare</td><td>Fișiere inaccesibile</td></tr>
+<tr><td><b>Spyware</b></td><td>Monitorizează activitatea</td><td>Furt parole, date personale</td></tr>
+<tr><td><b>Adware</b></td><td>Afișează reclame nedorite</td><td>Pop-up-uri, sistem lent</td></tr>
+<tr><td><b>Keylogger</b></td><td>Înregistrează tastele apăsate</td><td>Furt parole</td></tr>
+<tr><td><b>Phishing</b></td><td>Email/site fals care imită altul</td><td>Furt date autentificare</td></tr>
+</table>
+<h3>Antivirus</h3>
+<p>Detectează, blochează, elimină malware. Exemple: <b>Windows Defender</b> (integrat W10/11), <b>Avast</b>, <b>Kaspersky</b>, <b>Bitdefender</b> (RO), <b>Norton</b>, <b>ESET NOD32</b>. Trebuie actualizat regulat.</p>
+<h3>Firewall</h3>
+<p>Monitorizează traficul de rețea pe baza de reguli. <b>Hardware</b> (router) sau <b>software</b> (Windows Firewall). Configurare: Panou Control → Windows Defender Firewall.</p>
+<h3>Măsuri de protecție</h3>
+<p>Actualizări regulate SO+aplicații. Antivirus actualizat. Firewall activ. Parole puternice (min 12 char, majuscule+cifre+simboluri). Nu deschide atașamente necunoscute. HTTPS în browser. Backup periodic.</p>
+
+<h2>REȚELE + PERFORMANȚĂ</h2>
+<table>
+<tr><th>Tip rețea</th><th>Arie</th><th>Exemple</th></tr>
+<tr><td><b>LAN</b></td><td>Clădire, campus</td><td>Rețea birou, școală</td></tr>
+<tr><td><b>MAN</b></td><td>Oraș</td><td>Rețeaua unui oraș</td></tr>
+<tr><td><b>WAN</b></td><td>Țară, continent, global</td><td>Internet, rețele corporative</td></tr>
+<tr><td><b>Internet</b></td><td>Global</td><td>Rețeaua tuturor rețelelor</td></tr>
+<tr><td><b>Intranet</b></td><td>Internă organizație</td><td>Rețea internă firmă</td></tr>
+<tr><td><b>Extranet</b></td><td>Intranet+acces extern parțial</td><td>Portal furnizori</td></tr>
+</table>
+<h3>Avantaje lucru în rețea</h3>
+<p>Partajare resurse (imprimantă, fișiere, internet), comunicare rapidă, stocare centralizată, colaborare în timp real, reducere costuri.</p>
+<h3>Factori performanță computer</h3>
+<p><b>CPU frecvență (GHz)</b>: procesare mai rapidă. <b>RAM (GB)</b>: mai multe programe simultane. <b>HDD/SSD viteză</b>: pornire rapidă. <b>GPU</b>: grafică. <b>Tip stocare</b>: SSD &gt; HDD.</p>
+
+<h2>ERGONOMIE, SĂNĂTATE, LEGISLAȚIE</h2>
+<h3>Ergonomia postului de lucru</h3>
+<p><b>Monitor</b>: la nivelul ochilor, 50-70cm distanță. <b>Scaun</b>: spătar drept, picioare pe podea la 90°. <b>Tastatură</b>: antebrațe orizontale. <b>Iluminat</b>: natural din stânga, fără reflexii. <b>Pauze</b>: 5-10min/oră. Regula 20-20-20: la 20min, privești 20sec la obiect la 6m.</p>
+<h3>Afecțiuni provocate de lucrul la calculator</h3>
+<p><b>Sindrom tunel carpian</b>: durere/amorțeală mână din mișcări repetitive. <b>Astenopie (oboseală vizuală)</b>: ochi obosiți, usturi. <b>Dureri de spate/coloană</b>: poziție incorectă. <b>Dureri de cap</b>: lumina ecranului. <b>Insomnie</b>: lumina albastră seara.</p>
+<h3>Copyright și licențiere software</h3>
+<p>Software protejat de legea drepturilor de autor. Copierea fără permisiune = piraterie = ilegală. Consecințe: <b>pentru producător</b>=pierderi financiare; <b>pentru utilizator</b>=amenzi, procese, software fără actualizări (risc malware).</p>
+<h3>GDPR</h3>
+<p>Regulament UE 679/2016. Protejează datele personale cetățenilor UE. Drepturile: acces, rectificare, ștergere ("dreptul de a fi uitat"), portabilitate. Organizațiile trebuie să ceară consimțământ.</p>
+<h3>Semnătură digitală</h3>
+<p>Mecanism criptografic care verifică identitatea și integritatea documentului electronic. Bazată pe PKI (cheie publică/privată). Are valoare juridică.</p>
+</div>
+</div>
+</div>
+
+<!-- ═══ INTERNET + EMAIL ═══ -->
+<div id="internet">
+<div class="grid">
+<div>
+<h2>INTERNET – CONCEPTE</h2>
+<h3>Internet vs WWW</h3>
+<p><b>Internet</b>=infrastructura fizică globală (rețele, cabluri, routere, servere). <b>WWW</b>=serviciu pe internet, pagini web interconectate prin hyperlink-uri. WWW este parte din internet, nu același lucru.</p>
+<h3>Adresa IP</h3>
+<p>Adresa numerică unică a unui dispozitiv. <b>IPv4</b>: 4 grupuri 0-255 (ex: 192.168.1.1). <b>IPv6</b>: format hexazecimal mai lung. IP <b>static</b>=fix | IP <b>dinamic</b>=se schimbă la fiecare conexiune.</p>
+<h3>DNS (Domain Name System)</h3>
+<p>Convertește un <b>nume de domeniu</b> (google.com) în <b>adresă IP</b>. Google DNS: 8.8.8.8 | Cloudflare: 1.1.1.1.</p>
+<h3>URL (Uniform Resource Locator)</h3>
+<p>Structură: <span class="cmd">protocol://domeniu:port/cale?parametri</span>. Ex: <span class="cmd">https://www.google.com/search?q=bac</span>.</p>
+<h3>Domenii de nivel superior (TLD)</h3>
+<p><b>.ro</b>=România | <b>.com</b>=comercial | <b>.org</b>=organizație | <b>.net</b>=rețea | <b>.gov</b>=guvern | <b>.edu</b>=educație.</p>
+<h3>Server și Client</h3>
+<p><b>Server</b>=calculator care oferă servicii (web, email, fișiere), rulează 24/7. <b>Client</b>=dispozitivul care accesează serviciile (browser-ul tău). <b>Host</b>=orice dispozitiv cu adresă IP în rețea.</p>
+
+<h2>PROTOCOALE DE INTERNET</h2>
+<table>
+<tr><th>Protocol</th><th>Scop</th><th>Port</th></tr>
+<tr><td><b>HTTP</b></td><td>Transfer pagini web (nesecurizat)</td><td>80</td></tr>
+<tr><td><b>HTTPS</b></td><td>HTTP + criptare SSL/TLS (securizat, 🔒)</td><td>443</td></tr>
+<tr><td><b>FTP</b></td><td>Transfer fișiere</td><td>21</td></tr>
+<tr><td><b>SMTP</b></td><td>Trimitere email</td><td>25/587</td></tr>
+<tr><td><b>POP3</b></td><td>Descărcare email (șterge de pe server)</td><td>110</td></tr>
+<tr><td><b>IMAP</b></td><td>Acces email pe server (rămâne pe server)</td><td>143</td></tr>
+<tr><td><b>TCP/IP</b></td><td>Protocolul de bază al internetului</td><td>–</td></tr>
+<tr><td><b>UDP</b></td><td>Transmisie rapidă (streaming, VoIP)</td><td>–</td></tr>
+<tr><td><b>DNS</b></td><td>Rezolvare nume domeniu → IP</td><td>53</td></tr>
+<tr><td><b>DHCP</b></td><td>Atribuire automată IP în rețea</td><td>67/68</td></tr>
+</table>
+<h3>HTTP vs HTTPS</h3>
+<p>HTTPS = criptat (🔒 în browser). <span class="warn">Nu introduce date sensibile (parole, card) pe site-uri HTTP!</span></p>
+
+<h2>ACCES LA INTERNET / BROWSERE</h2>
+<h3>ISP (Internet Service Provider)</h3>
+<p>Furnizor internet. Exemple RO: <b>Digi (RCS-RDS)</b>, <b>Orange</b>, <b>Vodafone</b>, <b>Telekom</b>.</p>
+<h3>Tipuri de conexiune</h3>
+<p><b>Fibră optică</b>: cea mai rapidă (1Gbps+). <b>Cablu/xDSL</b>: 10-100Mbps. <b>4G/5G</b>: mobil. <b>WiFi</b>: wireless local. <b>Bandwidth</b> (lățime de bandă): cantitatea de date/sec (Mbps, Gbps).</p>
+<h3>Browsere populare</h3>
+<p><b>Google Chrome</b>, <b>Mozilla Firefox</b>, <b>Microsoft Edge</b>, <b>Safari</b> (Apple), <b>Opera</b>, <b>Brave</b>.</p>
+<h3>Operații browser</h3>
+<p>Tab nou: <span class="cmd">Ctrl+T</span> | Închidere tab: <span class="cmd">Ctrl+W</span> | Reîmprospătare: <span class="cmd">F5</span> | Forțat (fără cache): <span class="cmd">Ctrl+F5</span> | Zoom: <span class="cmd">Ctrl++/-/0</span> | Căutare pe pagină: <span class="cmd">Ctrl+F</span> | Cod sursă: <span class="cmd">Ctrl+U</span> | Fullscreen: <span class="cmd">F11</span> | Mod incognito: <span class="cmd">Ctrl+Shift+N</span>.</p>
+<h3>Salvare pagină web (HTML only)</h3>
+<p>Browser → <span class="cmd">Ctrl+S</span> → Tip fișier: <b>Pagină web, numai HTML (Webpage, HTML Only)</b> → directorul examen → nume implicit → Salvare. <span class="warn">NU "Pagina web completă"!</span></p>
+<h3>Cookie-uri</h3>
+<p>Fișiere mici stocate de site-uri. Rețin preferințe, sesiuni de logare. Pot fi șterse din setările browser-ului.</p>
+
+<h2>MOTOARE DE CĂUTARE</h2>
+<h3>Exemple</h3>
+<p><b>Google</b> (google.ro), <b>Bing</b>, <b>Yahoo</b>, <b>DuckDuckGo</b> (fără urmărire).</p>
+<h3>Operatori de căutare Google</h3>
+<table>
+<tr><th>Operator</th><th>Efect</th><th>Exemplu</th></tr>
+<tr><td><span class="cmd">"..."</span></td><td>Frază exactă</td><td><span class="cmd">"bacalaureat 2025"</span></td></tr>
+<tr><td><span class="cmd">-cuvânt</span></td><td>Exclude cuvântul</td><td><span class="cmd">python -snake</span></td></tr>
+<tr><td><span class="cmd">site:</span></td><td>Caută pe un site</td><td><span class="cmd">site:edu.ro informatica</span></td></tr>
+<tr><td><span class="cmd">filetype:</span></td><td>Tip fișier</td><td><span class="cmd">filetype:pdf bac</span></td></tr>
+<tr><td><span class="cmd">OR</span></td><td>Unul sau altul</td><td><span class="cmd">laptop OR desktop</span></td></tr>
+</table>
+</div>
+<div>
+<h2>EMAIL (POȘTA ELECTRONICĂ)</h2>
+<h3>Câmpurile unui mesaj</h3>
+<table>
+<tr><th>Câmp</th><th>Conținut</th></tr>
+<tr><td><b>De la (From)</b></td><td>Adresa expeditorului (auto)</td></tr>
+<tr><td><b>Către (To)</b></td><td>Destinatarul/destinatarii principali</td></tr>
+<tr><td><b>CC</b> (Carbon Copy)</td><td>Copie; adresele VIZIBILE pentru toți</td></tr>
+<tr><td><b>BCC</b> (Blind Carbon Copy)</td><td>Copie; adresele INVIZIBILE pentru ceilalți</td></tr>
+<tr><td><b>Subiect (Subject)</b></td><td>Titlul mesajului</td></tr>
+<tr><td><b>Atașament (Attachment)</b></td><td>Fișiere atașate (📎)</td></tr>
+</table>
+<h3>BCC explicat</h3>
+<p>Destinatarii din BCC primesc mesajul, dar adresele lor nu se văd în câmpul BCC de către ceilalți destinatari (To, CC). Util pentru liste mari (protejează confidențialitatea adreselor).</p>
+<h3>Operații email (Outlook)</h3>
+<p><span class="cmd">Ctrl+N</span>=email nou | <span class="cmd">Ctrl+Enter</span>=trimite | <span class="cmd">Ctrl+R</span>=răspunde | <span class="cmd">Ctrl+Shift+R</span>=răspunde tuturor | <span class="cmd">Ctrl+F</span>=redirecționează (Forward).</p>
+<h3>Dosare (Foldere) standard email</h3>
+<p><b>Inbox</b>=primite | <b>Sent</b>=trimise | <b>Drafts</b>=ciorne | <b>Trash/Deleted</b>=coș | <b>Junk/Spam</b>=nedorite.</p>
+<h3>Structura adresei email</h3>
+<p>Format: <span class="cmd">utilizator@domeniu.tld</span>. Ex: <span class="cmd">ion.popescu@gmail.com</span>. Caractere permise: litere, cifre, punct, liniuță, underscore. Fără spații!</p>
+<h3>Netiquette email</h3>
+<p>Subiect clar. Ton politicos. Semnătură la final. Nu SCRIERE CU MAJUSCULE (=țipat). Atașamente max 10-25MB. BCC pentru liste mari.</p>
+<h3>Acronime și emoticoane</h3>
+<table>
+<tr><td><b>LOL</b>=Laughing Out Loud</td><td><b>ASAP</b>=cât mai curând</td></tr>
+<tr><td><b>FYI</b>=spre informare</td><td><b>BTW</b>=apropo</td></tr>
+<tr><td><b>IMHO</b>=după umila mea opinie</td><td><b>TBD</b>=de stabilit</td></tr>
+<tr><td><b>:)</b>=zâmbet</td><td><b>:(</b>=tristețe</td></tr>
+<tr><td><b>;)</b>=clipit complice</td><td><b>:D</b>=râs</td></tr>
+</table>
+
+<h2>SERVICII INTERNET</h2>
+<h3>VoIP (Voice over Internet Protocol)</h3>
+<p>Telefonie prin internet. Vocea digitizată se transmite ca pachete de date. Exemple: <b>Skype</b>, <b>Zoom</b>, <b>WhatsApp</b>, <b>Viber</b>, <b>Google Meet</b>, <b>Teams</b>. Avantaj: cost redus/gratuit, video conferință.</p>
+<h3>E-commerce (Comerț electronic)</h3>
+<p>Pași: căutare → coș → cont → adresă livrare → plată (card/PayPal/ramburs) → confirmare. Avantaje: 24/7, prețuri mai mici, comparare ușoară. Dezavantaje: nu testezi produsul, risc fraude. Exemple: <b>eMag</b>, <b>Amazon</b>.</p>
+<h3>E-banking (Banking online)</h3>
+<p>Verificare sold, transferuri, plăți facturi, extras de cont online. Necesită autentificare 2FA (parolă + SMS).</p>
+<h3>Cloud computing</h3>
+<p>Stocare și procesare date pe servere la distanță. Exemple: <b>Google Drive</b>, <b>OneDrive</b>, <b>Dropbox</b>, <b>iCloud</b>. Avantaje: acces de oriunde, backup auto. Dezavantaje: nevoie de internet, confidențialitate.</p>
+<h3>Chat / Mesagerie instant</h3>
+<p>Comunicare în timp real text/voce/video. <b>WhatsApp</b>, <b>Telegram</b>, <b>Discord</b>, <b>Messenger</b>, <b>Signal</b>.</p>
+<h3>Streaming</h3>
+<p>Video: YouTube, Netflix, Twitch. Audio: Spotify. Conferințe: Zoom, Teams. Necesită bandă suficientă (HD: ~5Mbps, 4K: ~25Mbps).</p>
+<h3>Grupuri de discuții / Forumuri</h3>
+<p>Reddit, Stack Overflow, forumuri tematice. Mesaje publice organizate pe thread-uri.</p>
+
+<h2>SECURITATE ÎN INTERNET</h2>
+<h3>Phishing</h3>
+<p>Email/site fals care imită o entitate legitimă. Semne: adresă expeditor greșită, linkuri ciudate, urgență falsă, greșeli gramaticale. <span class="warn">Nu introduci date pe linkuri din email!</span></p>
+<h3>Parole puternice</h3>
+<p>Min 12 caractere: MAJUSCULE + minuscule + cifre + simboluri. Parolă diferită pentru fiecare cont. Nu folosi date personale (nume, data nașterii).</p>
+<h3>2FA/MFA (Autentificare cu doi factori)</h3>
+<p>Parolă + cod SMS/email/aplicație. Chiar dacă parola e furată, contul rămâne protejat.</p>
+<h3>Netiquette online</h3>
+<p>Respectă intimitatea. Nu distribui date personale ale altora. Nu hărțuiești (cyberbullying). Verifică informațiile înainte de a le distribui (fake news). Respectă drepturile de autor. Limbaj decent.</p>
+<h3>Semnătură digitală</h3>
+<p>Verifică identitatea semnatarului și integritatea documentului electronic. Valoare juridică. Bazată pe PKI (cheie publică/privată).</p>
+</div>
+</div>
+</div>
+
+</div><!-- end .wrap -->
+</body>
+</html>
